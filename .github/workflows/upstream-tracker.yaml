@@ -16,7 +16,7 @@ jobs:
           jq ".commit" > superset-master.json
       - name: Check for modified files
         id: git-check
-        run: echo ::set-output name=modified::$([ -z "`git status --porcelain`" ] && echo "false" || echo "true")
+        run: echo ::set-output name=modified::$([ -z "`git status --porcelain`" ] && echo "unchanged" || echo "true")
       - name: Commit latest upstream revision
         if: steps.git-check.outputs.modified == 'true'
         run: |
@@ -25,8 +25,8 @@ jobs:
           git commit -am "New upstream revision"
           git push
   build:
+    if: needs.get-revision.outputs.modified == 'true'
     needs: get-revision
-    if: ${{ needs.get-revision.outputs.modified }} == 'true'
     strategy:
       matrix:
         DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
@@ -34,9 +34,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: echo ${{ needs.get-revision.outputs.modified }}
-      if: false
+      if: needs.get-revision.outputs.modified == 'true'
     - name: Publish to GitHub Registry
       uses: elgohr/Publish-Docker-Github-Action@master
+      if: needs.get-revision.outputs.modified == 'true'
       with:
         name: ghcr.io/${{ github.repository_owner }}/${{ matrix.DOCKER_IMAGE }}
         username: ${{ github.actor }}
