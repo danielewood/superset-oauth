@@ -12,6 +12,11 @@ jobs:
       upstream-tag: ${{ steps.upstream-tag.outputs.upstream-tag }}
     steps:
       - uses: actions/checkout@v2
+      - name: Echo tag
+        run: |
+          echo $(cat superset-release-version.txt)
+          echo "----"
+          exit 1
       - name: Fetch release version
         run: |
           curl -sL https://api.github.com/repos/apache/superset/releases | \
