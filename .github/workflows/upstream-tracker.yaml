@@ -6,6 +6,8 @@ on:
 jobs:
   get-revision:
     runs-on: ubuntu-latest
+    outputs:
+      modified: ${{ steps.git-check.outputs.modified }}
     steps:
       - uses: actions/checkout@v2
       - name: Fetch upstream revision
@@ -27,7 +29,7 @@ jobs:
       matrix:
         DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
     runs-on: ubuntu-latest
-    if: steps.git-check.outputs.modified == 'true'
+    if: get-revision.outputs.modified == 'true'
     steps:
     - uses: actions/checkout@v2
     - name: Publish to GitHub Registry
