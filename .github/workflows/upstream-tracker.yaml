@@ -4,7 +4,8 @@ on:
     - cron:  '10 * * * *' # Every Hour
   workflow_dispatch:
 jobs:
-  get-revision:
+  check-upstream:
+    name: Check for new upstream revision
     runs-on: ubuntu-latest
     outputs:
       modified: ${{ steps.git-check.outputs.modified }}
@@ -24,9 +25,10 @@ jobs:
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
           git commit -am "New upstream revision"
           git push
-  build:
-    if: needs.get-revision.outputs.modified == 'true'
-    needs: get-revision
+  publish-image:
+    name: Publish to ghcr.io
+    needs: check-upstream
+    if: needs.check-upstream.outputs.modified == 'true'
     strategy:
       matrix:
         DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
