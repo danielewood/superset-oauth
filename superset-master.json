@@ -1,51 +1,51 @@
 {
-  "sha": "6119d8e998601d214030e61eeed8b1709342fa3b",
-  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6NjExOWQ4ZTk5ODYwMWQyMTQwMzBlNjFlZWVkOGIxNzA5MzQyZmEzYg==",
+  "sha": "0807ab44a59c35f65293f20aec9699d97dac3cb8",
+  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6MDgwN2FiNDRhNTljMzVmNjUyOTNmMjBhZWM5Njk5ZDk3ZGFjM2NiOA==",
   "commit": {
     "author": {
-      "name": "Kamil Gabryjelski",
-      "email": "kamil.gabryjelski@gmail.com",
-      "date": "2021-04-20T09:45:48Z"
+      "name": "Ville Brofeldt",
+      "email": "33317356+villebro@users.noreply.github.com",
+      "date": "2021-04-20T11:24:33Z"
     },
     "committer": {
       "name": "GitHub",
       "email": "noreply@github.com",
-      "date": "2021-04-20T09:45:48Z"
+      "date": "2021-04-20T11:24:33Z"
     },
-    "message": "Fix filter edit popover not opening in DnD mode (#14243)",
+    "message": "fix(native-filters): merge_extra_form_data extras processing (#14244)\n\n* fix: merge_extra_form_data extras processing\r\n\r\n* move props that are later moved back in viz.py",
     "tree": {
-      "sha": "d117d0ca520e47a7e51c5a7fb7458456927bdc4b",
-      "url": "https://api.github.com/repos/apache/superset/git/trees/d117d0ca520e47a7e51c5a7fb7458456927bdc4b"
+      "sha": "28c754ece99b6215651996bd87d59f4a3197237b",
+      "url": "https://api.github.com/repos/apache/superset/git/trees/28c754ece99b6215651996bd87d59f4a3197237b"
     },
-    "url": "https://api.github.com/repos/apache/superset/git/commits/6119d8e998601d214030e61eeed8b1709342fa3b",
+    "url": "https://api.github.com/repos/apache/superset/git/commits/0807ab44a59c35f65293f20aec9699d97dac3cb8",
     "comment_count": 0,
     "verification": {
       "verified": true,
       "reason": "valid",
-      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfqLMCRBK7hj4Ov3rIwAAuakIAH3d1LgUwR1ivW5p3wZqbrlL\nuXCo/4vnF8zczo55EaF69DLbUsVeqI/m62FHQkxMZ5V0t0Pa3XS+7+Np8KtCmVza\naBJxgffzzQquWwXOYvtoiA1MUnM15pvgShI5i6CCVeUMYLiSzJiYBoUbKOW1fmMb\nevKFHnv2qy/DdE7IN7dHwM1sAzfzcGepMIW0qPz1vtuy34Ood7F+A75N6J6FYaCy\n//SI20/KTUxiX/DH6xD0/7DCmCmJhv/PCw/tddz5CiGBwQva/6hLT4UZVzvJheX3\nDxMUMpWatZlI4ufQ2wMYOfnNg4R9Wz0abThQU07Hv7ClU7dv4AOz0X02crxwMjQ=\n=guws\n-----END PGP SIGNATURE-----\n",
-      "payload": "tree d117d0ca520e47a7e51c5a7fb7458456927bdc4b\nparent d386e66f590c9df9b7063a15248700603b0f5e4d\nauthor Kamil Gabryjelski <kamil.gabryjelski@gmail.com> 1618911948 +0200\ncommitter GitHub <noreply@github.com> 1618911948 +0200\n\nFix filter edit popover not opening in DnD mode (#14243)\n\n"
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfrnxCRBK7hj4Ov3rIwAAXdcIAFz0EEqPuVA0UkHXhbcGmtm4\nePA6VGS8c+n7PpadINzDnhbRiMcm32GewdMYQOmX4UkhOA4aU5N4duw8PFRCmgXv\noWRiL7wq0kYk6MS890J1nimJ6QA9L+BkUwqbqwZHFBBX1rPkUUm97aZ6vgUa7R6r\ni5IauQPwOyr0QubwdXMInBppJyRGAohtIX4KbF74BysNm+ig6hudsjsYZf/v3ima\n61lMu1+TEJH3CiFR9m6bGFX0bT0MN3P9LS32aNzCS32D28EVuj1mtBNn7aw+gnGO\ndgBA1Ap6s1qlSwJnq0h4DEDGnvsWBZCmrv7oRenMuOtnf1xlI5zp3DktsxjIT3w=\n=bgrs\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 28c754ece99b6215651996bd87d59f4a3197237b\nparent 7e5440a359e90b1d36f1caa7fc2fb31c816ede49\nauthor Ville Brofeldt <33317356+villebro@users.noreply.github.com> 1618917873 +0300\ncommitter GitHub <noreply@github.com> 1618917873 +0300\n\nfix(native-filters): merge_extra_form_data extras processing (#14244)\n\n* fix: merge_extra_form_data extras processing\r\n\r\n* move props that are later moved back in viz.py"
     }
   },
-  "url": "https://api.github.com/repos/apache/superset/commits/6119d8e998601d214030e61eeed8b1709342fa3b",
-  "html_url": "https://github.com/apache/superset/commit/6119d8e998601d214030e61eeed8b1709342fa3b",
-  "comments_url": "https://api.github.com/repos/apache/superset/commits/6119d8e998601d214030e61eeed8b1709342fa3b/comments",
+  "url": "https://api.github.com/repos/apache/superset/commits/0807ab44a59c35f65293f20aec9699d97dac3cb8",
+  "html_url": "https://github.com/apache/superset/commit/0807ab44a59c35f65293f20aec9699d97dac3cb8",
+  "comments_url": "https://api.github.com/repos/apache/superset/commits/0807ab44a59c35f65293f20aec9699d97dac3cb8/comments",
   "author": {
-    "login": "kgabryje",
-    "id": 15073128,
-    "node_id": "MDQ6VXNlcjE1MDczMTI4",
-    "avatar_url": "https://avatars.githubusercontent.com/u/15073128?v=4",
+    "login": "villebro",
+    "id": 33317356,
+    "node_id": "MDQ6VXNlcjMzMzE3MzU2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/33317356?v=4",
     "gravatar_id": "",
-    "url": "https://api.github.com/users/kgabryje",
-    "html_url": "https://github.com/kgabryje",
-    "followers_url": "https://api.github.com/users/kgabryje/followers",
-    "following_url": "https://api.github.com/users/kgabryje/following{/other_user}",
-    "gists_url": "https://api.github.com/users/kgabryje/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/kgabryje/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/kgabryje/subscriptions",
-    "organizations_url": "https://api.github.com/users/kgabryje/orgs",
-    "repos_url": "https://api.github.com/users/kgabryje/repos",
-    "events_url": "https://api.github.com/users/kgabryje/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/kgabryje/received_events",
+    "url": "https://api.github.com/users/villebro",
+    "html_url": "https://github.com/villebro",
+    "followers_url": "https://api.github.com/users/villebro/followers",
+    "following_url": "https://api.github.com/users/villebro/following{/other_user}",
+    "gists_url": "https://api.github.com/users/villebro/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/villebro/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/villebro/subscriptions",
+    "organizations_url": "https://api.github.com/users/villebro/orgs",
+    "repos_url": "https://api.github.com/users/villebro/repos",
+    "events_url": "https://api.github.com/users/villebro/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/villebro/received_events",
     "type": "User",
     "site_admin": false
   },
@@ -71,9 +71,9 @@
   },
   "parents": [
     {
-      "sha": "d386e66f590c9df9b7063a15248700603b0f5e4d",
-      "url": "https://api.github.com/repos/apache/superset/commits/d386e66f590c9df9b7063a15248700603b0f5e4d",
-      "html_url": "https://github.com/apache/superset/commit/d386e66f590c9df9b7063a15248700603b0f5e4d"
+      "sha": "7e5440a359e90b1d36f1caa7fc2fb31c816ede49",
+      "url": "https://api.github.com/repos/apache/superset/commits/7e5440a359e90b1d36f1caa7fc2fb31c816ede49",
+      "html_url": "https://github.com/apache/superset/commit/7e5440a359e90b1d36f1caa7fc2fb31c816ede49"
     }
   ]
 }
