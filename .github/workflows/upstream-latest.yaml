@@ -18,9 +18,10 @@ jobs:
           set -x
           curl -sL https://api.github.com/repos/apache/superset/releases | \
           jq -r .[].tag_name | \
-          sort -Vr | \
-          grep -E '^1.\d+\.\d+$' | \
-          head -1 > superset-release-version.txt
+          sort -Vr > superset-release-version.txt
+          cat superset-release-version.txt
+          cat superset-release-version.txt | grep -E '^1.\d+\.\d+$'
+
           echo "----"
           echo $(cat superset-release-version.txt)
           echo "----"
