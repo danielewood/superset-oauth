@@ -32,6 +32,8 @@ jobs:
         DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
     runs-on: ubuntu-latest
     steps:
+    - if: false
+    - run: echo ${{ needs.get-revision.outputs.modified }}
     - uses: actions/checkout@v2
     - name: Publish to GitHub Registry
       uses: elgohr/Publish-Docker-Github-Action@master
