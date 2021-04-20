@@ -1,0 +1,79 @@
+{
+  "sha": "13bf0231001534a08fad25405162cd7c41c14f11",
+  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6MTNiZjAyMzEwMDE1MzRhMDhmYWQyNTQwNTE2MmNkN2M0MWMxNGYxMQ==",
+  "commit": {
+    "author": {
+      "name": "Beto Dealmeida",
+      "email": "roberto@dealmeida.net",
+      "date": "2021-04-20T00:24:22Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2021-04-20T00:24:22Z"
+    },
+    "message": "feat: improve engine spec discoverability (#14204)\n\n* feat: improve engine spec discoverability\r\n\r\n* Address comments\r\n\r\n* Fix tests",
+    "tree": {
+      "sha": "c6fcb3169569c6cb52a1fbda2961e3107625cbdc",
+      "url": "https://api.github.com/repos/apache/superset/git/trees/c6fcb3169569c6cb52a1fbda2961e3107625cbdc"
+    },
+    "url": "https://api.github.com/repos/apache/superset/git/commits/13bf0231001534a08fad25405162cd7c41c14f11",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfh83CRBK7hj4Ov3rIwAAQ4sIAHDxiSUP+5VYoHGQ2tPyaF6D\n9KQ6VWA5Yy4IqSEhx2109srq18OWGxgIjh0DM/ZlkyCMIartWexfehEE9ZS9Wr36\nrEMWBpnpbXrwwvZUanondjgMUoZIe8iVqwVtTXJ0Pj3JZmOgLiDN/N03C09idwQI\nOPJlI3YK3fe3dLmfKVm4xHJ0pam+g9C0aq7X1jJuN9MNymrrBBWH5sdMdv0Tp4aa\n18reF67kOG4Z1WJOmm3agYy8zbLMp4BLBQBgEDE48pD3GKJZExyr8QcunAcSB++K\nyaqsh7Cjs+siAUZGzNSvl1p7Z0wQAkWK8AC/JMKhjIuJBSoUkRhAnjfZHyifmGg=\n=NCEH\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c6fcb3169569c6cb52a1fbda2961e3107625cbdc\nparent c2d11ac53e8e80b998fb9598e3b4be3c1e64587a\nauthor Beto Dealmeida <roberto@dealmeida.net> 1618878262 -0700\ncommitter GitHub <noreply@github.com> 1618878262 -0700\n\nfeat: improve engine spec discoverability (#14204)\n\n* feat: improve engine spec discoverability\r\n\r\n* Address comments\r\n\r\n* Fix tests"
+    }
+  },
+  "url": "https://api.github.com/repos/apache/superset/commits/13bf0231001534a08fad25405162cd7c41c14f11",
+  "html_url": "https://github.com/apache/superset/commit/13bf0231001534a08fad25405162cd7c41c14f11",
+  "comments_url": "https://api.github.com/repos/apache/superset/commits/13bf0231001534a08fad25405162cd7c41c14f11/comments",
+  "author": {
+    "login": "betodealmeida",
+    "id": 1534870,
+    "node_id": "MDQ6VXNlcjE1MzQ4NzA=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1534870?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/betodealmeida",
+    "html_url": "https://github.com/betodealmeida",
+    "followers_url": "https://api.github.com/users/betodealmeida/followers",
+    "following_url": "https://api.github.com/users/betodealmeida/following{/other_user}",
+    "gists_url": "https://api.github.com/users/betodealmeida/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/betodealmeida/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/betodealmeida/subscriptions",
+    "organizations_url": "https://api.github.com/users/betodealmeida/orgs",
+    "repos_url": "https://api.github.com/users/betodealmeida/repos",
+    "events_url": "https://api.github.com/users/betodealmeida/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/betodealmeida/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "c2d11ac53e8e80b998fb9598e3b4be3c1e64587a",
+      "url": "https://api.github.com/repos/apache/superset/commits/c2d11ac53e8e80b998fb9598e3b4be3c1e64587a",
+      "html_url": "https://github.com/apache/superset/commit/c2d11ac53e8e80b998fb9598e3b4be3c1e64587a"
+    }
+  ]
+}
