@@ -1,34 +1,34 @@
 {
-  "sha": "9d67b465763fa9321d4174de079b30fc244a9743",
-  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6OWQ2N2I0NjU3NjNmYTkzMjFkNDE3NGRlMDc5YjMwZmMyNDRhOTc0Mw==",
+  "sha": "d386e66f590c9df9b7063a15248700603b0f5e4d",
+  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6ZDM4NmU2NmY1OTBjOWRmOWI3MDYzYTE1MjQ4NzAwNjAzYjBmNWU0ZA==",
   "commit": {
     "author": {
       "name": "simcha90",
       "email": "56388545+simcha90@users.noreply.github.com",
-      "date": "2021-04-20T06:48:23Z"
+      "date": "2021-04-20T09:24:12Z"
     },
     "committer": {
       "name": "GitHub",
       "email": "noreply@github.com",
-      "date": "2021-04-20T06:48:23Z"
+      "date": "2021-04-20T09:24:12Z"
     },
-    "message": "fix(native-filters): fix remove native filters (#14218)\n\n* fix:fix get permission function\r\n\r\n* fix: clean data mask on chart removing\r\n\r\n* refactor: fix reducer",
+    "message": "test(native-filters): add integration tests for filter bar (#14098)\n\n* test: add tests for filter bar\r\n\r\n* test: merge filter bar tests with master\r\n\r\n* test: add test for filter set\r\n\r\n* test: filter set tests\r\n\r\n* test: merge with master\r\n\r\n* test: fix tests for filter bar\r\n\r\n* fix: fix CR notes\r\n\r\n* fix: fix CR notes",
     "tree": {
-      "sha": "7d161b3bc1b6d90849828572b4cf66845215cf78",
-      "url": "https://api.github.com/repos/apache/superset/git/trees/7d161b3bc1b6d90849828572b4cf66845215cf78"
+      "sha": "0f1d3c109206335833aaa6876e3a50aaca9bcf80",
+      "url": "https://api.github.com/repos/apache/superset/git/trees/0f1d3c109206335833aaa6876e3a50aaca9bcf80"
     },
-    "url": "https://api.github.com/repos/apache/superset/git/commits/9d67b465763fa9321d4174de079b30fc244a9743",
+    "url": "https://api.github.com/repos/apache/superset/git/commits/d386e66f590c9df9b7063a15248700603b0f5e4d",
     "comment_count": 0,
     "verification": {
       "verified": true,
       "reason": "valid",
-      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfnk3CRBK7hj4Ov3rIwAAkdsIAFUyPlBwkfSXtzUXo8r+PndO\nZWPus6PZPp+m1DwqkHmDEwDqhDQOsJUHBt/1tgDkHjWOpMBtQ14+skjv74u+inig\nkoQF/TW5608+ct990k82QPoQgYm0r5+fp5W+MGAJkdKFNCKDPJdowCv4DMdNd808\n5ma2RN/Mqwj3prhW7oXyM80W4I0EAV00e1HjNpxJIonxQ1jDyjxOn5Sud4rU2q8X\nLYRydW600ktBduLMM+BOvKkswjdORuI6BrW/9S1PxM5kr2SeZVjX53NfsereH/Hc\nWKYiwmrc1auyrMl65oTm4AYEVVe/Od15EblYp2GuNhJGkgSYrVdeidDTJ7eGvvs=\n=UMbM\n-----END PGP SIGNATURE-----\n",
-      "payload": "tree 7d161b3bc1b6d90849828572b4cf66845215cf78\nparent 25922e341f3e926812f4d633d649c4f6e4f17eec\nauthor simcha90 <56388545+simcha90@users.noreply.github.com> 1618901303 +0300\ncommitter GitHub <noreply@github.com> 1618901303 +0300\n\nfix(native-filters): fix remove native filters (#14218)\n\n* fix:fix get permission function\r\n\r\n* fix: clean data mask on chart removing\r\n\r\n* refactor: fix reducer"
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfp28CRBK7hj4Ov3rIwAA49YIAFox123Ts9Xqp28yu+/UQtS0\nCK6+RlzO+pOLVChfcneyqVEPzRTwxMwaHDK6CvZ/rvscROKvu8yfXlT4oVb5b1HM\nLMyOTADrVPB11tcxzKFk8u/U4snprcAYG3GEumpBOgJ143FKRO9NJ+UZdm3JXv2a\nTpumULJ/nd3+DnPooTHzZV8ufl23FHGfrYI1FvBct/l18+0prURoLdcKohxQR3H8\nvITtWhLNkdfKafNCgbF2M+wxC+f92LHyF2RzTyC5bZ8UMSbd0KtdYlRsDC+ApHbb\nfcWijcEJfnsk5RYdoXITv2wa9q0MQ2nBoHMVZQh7ceNmakZtVyur3AuE2P+Uh7U=\n=/Geo\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 0f1d3c109206335833aaa6876e3a50aaca9bcf80\nparent 9d67b465763fa9321d4174de079b30fc244a9743\nauthor simcha90 <56388545+simcha90@users.noreply.github.com> 1618910652 +0300\ncommitter GitHub <noreply@github.com> 1618910652 +0300\n\ntest(native-filters): add integration tests for filter bar (#14098)\n\n* test: add tests for filter bar\r\n\r\n* test: merge filter bar tests with master\r\n\r\n* test: add test for filter set\r\n\r\n* test: filter set tests\r\n\r\n* test: merge with master\r\n\r\n* test: fix tests for filter bar\r\n\r\n* fix: fix CR notes\r\n\r\n* fix: fix CR notes"
     }
   },
-  "url": "https://api.github.com/repos/apache/superset/commits/9d67b465763fa9321d4174de079b30fc244a9743",
-  "html_url": "https://github.com/apache/superset/commit/9d67b465763fa9321d4174de079b30fc244a9743",
-  "comments_url": "https://api.github.com/repos/apache/superset/commits/9d67b465763fa9321d4174de079b30fc244a9743/comments",
+  "url": "https://api.github.com/repos/apache/superset/commits/d386e66f590c9df9b7063a15248700603b0f5e4d",
+  "html_url": "https://github.com/apache/superset/commit/d386e66f590c9df9b7063a15248700603b0f5e4d",
+  "comments_url": "https://api.github.com/repos/apache/superset/commits/d386e66f590c9df9b7063a15248700603b0f5e4d/comments",
   "author": {
     "login": "simcha90",
     "id": 56388545,
@@ -71,9 +71,9 @@
   },
   "parents": [
     {
-      "sha": "25922e341f3e926812f4d633d649c4f6e4f17eec",
-      "url": "https://api.github.com/repos/apache/superset/commits/25922e341f3e926812f4d633d649c4f6e4f17eec",
-      "html_url": "https://github.com/apache/superset/commit/25922e341f3e926812f4d633d649c4f6e4f17eec"
+      "sha": "9d67b465763fa9321d4174de079b30fc244a9743",
+      "url": "https://api.github.com/repos/apache/superset/commits/9d67b465763fa9321d4174de079b30fc244a9743",
+      "html_url": "https://github.com/apache/superset/commit/9d67b465763fa9321d4174de079b30fc244a9743"
     }
   ]
 }
