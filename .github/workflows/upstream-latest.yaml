@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Echo tag
         run: |
+          set -x
           curl -sL https://api.github.com/repos/apache/superset/releases | \
           jq -r .[].tag_name | \
           sort -Vr | \
