@@ -1,79 +1,38 @@
 {
-  "sha": "13d490271130810d7cf0b3eafc56ba71eeba66c0",
-  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6MTNkNDkwMjcxMTMwODEwZDdjZjBiM2VhZmM1NmJhNzFlZWJhNjZjMA==",
-  "commit": {
+  "id": 767726817,
+  "name": "Docker",
+  "node_id": "MDExOldvcmtmbG93UnVuNzY3NzI2ODE3",
+  "head_branch": "master",
+  "head_sha": "13d490271130810d7cf0b3eafc56ba71eeba66c0",
+  "run_number": 7116,
+  "event": "push",
+  "status": "completed",
+  "conclusion": "success",
+  "workflow_id": 3465823,
+  "check_suite_id": 2540957740,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUyNTQwOTU3NzQw",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/767726817",
+  "created_at": "2021-04-20T15:52:37Z",
+  "updated_at": "2021-04-20T17:14:46Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/767726817/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/767726817/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/2540957740",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/767726817/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/767726817/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/767726817/rerun",
+  "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
+  "head_commit": {
+    "id": "13d490271130810d7cf0b3eafc56ba71eeba66c0",
+    "tree_id": "2521fd4f6dc14fcf84019e002c8e585f4766ba93",
+    "message": "feat(native-filters): select group by support (#14217)\n\n* chore: initial commit\r\n\r\n* feat: groupby filter\r\n\r\nCo-authored-by: Simcha Shats <simcha.shats@nielsen.com>",
+    "timestamp": "2021-04-20T15:52:33Z",
     "author": {
       "name": "Amit Miran",
-      "email": "47772523+amitmiran137@users.noreply.github.com",
-      "date": "2021-04-20T15:52:33Z"
+      "email": "47772523+amitmiran137@users.noreply.github.com"
     },
     "committer": {
       "name": "GitHub",
-      "email": "noreply@github.com",
-      "date": "2021-04-20T15:52:33Z"
-    },
-    "message": "feat(native-filters): select group by support (#14217)\n\n* chore: initial commit\r\n\r\n* feat: groupby filter\r\n\r\nCo-authored-by: Simcha Shats <simcha.shats@nielsen.com>",
-    "tree": {
-      "sha": "2521fd4f6dc14fcf84019e002c8e585f4766ba93",
-      "url": "https://api.github.com/repos/apache/superset/git/trees/2521fd4f6dc14fcf84019e002c8e585f4766ba93"
-    },
-    "url": "https://api.github.com/repos/apache/superset/git/commits/13d490271130810d7cf0b3eafc56ba71eeba66c0",
-    "comment_count": 0,
-    "verification": {
-      "verified": true,
-      "reason": "valid",
-      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfvjBCRBK7hj4Ov3rIwAA8E0IADKDUDaEOBkbXRR/Fy+Y3gk4\n1MouW4FLNivF/fyvCXbtTTOA0Ovndo4PWrNBo+FEFDDT8DlN07SnyMIXm69MN2lI\nyVN8fBYLILoZts9Ghk7ufE82F6j4Oh0oM+V4YsbR/ePQV2Y7eCjYin3Ci+NI3exf\njvlfwrLs2imQgo6WdGTq4HQS8AoUIH8yCZWJOmG57OTP1pSYAwQzQ6360C6PS8W/\nu/KjpbZG8c/xQM52nzWucid8S2kw35V+qbJyZKuAMMKiqwdhhL3FbVY2HhJNrIp1\nJ8h64r2p2wHuVW6WS2Smn7JnbplPyyuyqFAau9nxbnQY6a2XnGwqlB49WRGFpek=\n=98eN\n-----END PGP SIGNATURE-----\n",
-      "payload": "tree 2521fd4f6dc14fcf84019e002c8e585f4766ba93\nparent 42fb2286ad28f44fed0059a3e44ffffed309dd71\nauthor Amit Miran <47772523+amitmiran137@users.noreply.github.com> 1618933953 +0300\ncommitter GitHub <noreply@github.com> 1618933953 +0300\n\nfeat(native-filters): select group by support (#14217)\n\n* chore: initial commit\r\n\r\n* feat: groupby filter\r\n\r\nCo-authored-by: Simcha Shats <simcha.shats@nielsen.com>"
+      "email": "noreply@github.com"
     }
-  },
-  "url": "https://api.github.com/repos/apache/superset/commits/13d490271130810d7cf0b3eafc56ba71eeba66c0",
-  "html_url": "https://github.com/apache/superset/commit/13d490271130810d7cf0b3eafc56ba71eeba66c0",
-  "comments_url": "https://api.github.com/repos/apache/superset/commits/13d490271130810d7cf0b3eafc56ba71eeba66c0/comments",
-  "author": {
-    "login": "amitmiran137",
-    "id": 47772523,
-    "node_id": "MDQ6VXNlcjQ3NzcyNTIz",
-    "avatar_url": "https://avatars.githubusercontent.com/u/47772523?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/amitmiran137",
-    "html_url": "https://github.com/amitmiran137",
-    "followers_url": "https://api.github.com/users/amitmiran137/followers",
-    "following_url": "https://api.github.com/users/amitmiran137/following{/other_user}",
-    "gists_url": "https://api.github.com/users/amitmiran137/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/amitmiran137/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/amitmiran137/subscriptions",
-    "organizations_url": "https://api.github.com/users/amitmiran137/orgs",
-    "repos_url": "https://api.github.com/users/amitmiran137/repos",
-    "events_url": "https://api.github.com/users/amitmiran137/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/amitmiran137/received_events",
-    "type": "User",
-    "site_admin": false
-  },
-  "committer": {
-    "login": "web-flow",
-    "id": 19864447,
-    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/web-flow",
-    "html_url": "https://github.com/web-flow",
-    "followers_url": "https://api.github.com/users/web-flow/followers",
-    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-    "organizations_url": "https://api.github.com/users/web-flow/orgs",
-    "repos_url": "https://api.github.com/users/web-flow/repos",
-    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/web-flow/received_events",
-    "type": "User",
-    "site_admin": false
-  },
-  "parents": [
-    {
-      "sha": "42fb2286ad28f44fed0059a3e44ffffed309dd71",
-      "url": "https://api.github.com/repos/apache/superset/commits/42fb2286ad28f44fed0059a3e44ffffed309dd71",
-      "html_url": "https://github.com/apache/superset/commit/42fb2286ad28f44fed0059a3e44ffffed309dd71"
-    }
-  ]
+  }
 }
