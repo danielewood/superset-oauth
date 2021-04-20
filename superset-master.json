@@ -1,51 +1,51 @@
 {
-  "sha": "55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc",
-  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6NTViZjcyYWVhZDRmZDI3ZjQ5ZWNlYzRiNGVmMGNmYmZjNzQ3MzNjYw==",
+  "sha": "13d490271130810d7cf0b3eafc56ba71eeba66c0",
+  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6MTNkNDkwMjcxMTMwODEwZDdjZjBiM2VhZmM1NmJhNzFlZWJhNjZjMA==",
   "commit": {
     "author": {
-      "name": "Ville Brofeldt",
-      "email": "33317356+villebro@users.noreply.github.com",
-      "date": "2021-04-20T12:55:55Z"
+      "name": "Amit Miran",
+      "email": "47772523+amitmiran137@users.noreply.github.com",
+      "date": "2021-04-20T15:52:33Z"
     },
     "committer": {
       "name": "GitHub",
       "email": "noreply@github.com",
-      "date": "2021-04-20T12:55:55Z"
+      "date": "2021-04-20T15:52:33Z"
     },
-    "message": "chore(prophet): bump prophet to 1.0.1 (#14228)",
+    "message": "feat(native-filters): select group by support (#14217)\n\n* chore: initial commit\r\n\r\n* feat: groupby filter\r\n\r\nCo-authored-by: Simcha Shats <simcha.shats@nielsen.com>",
     "tree": {
-      "sha": "b1c6c3ee8fa84bfee8f88636edb54de6ea0c3de2",
-      "url": "https://api.github.com/repos/apache/superset/git/trees/b1c6c3ee8fa84bfee8f88636edb54de6ea0c3de2"
+      "sha": "2521fd4f6dc14fcf84019e002c8e585f4766ba93",
+      "url": "https://api.github.com/repos/apache/superset/git/trees/2521fd4f6dc14fcf84019e002c8e585f4766ba93"
     },
-    "url": "https://api.github.com/repos/apache/superset/git/commits/55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc",
+    "url": "https://api.github.com/repos/apache/superset/git/commits/13d490271130810d7cf0b3eafc56ba71eeba66c0",
     "comment_count": 0,
     "verification": {
       "verified": true,
       "reason": "valid",
-      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfs9bCRBK7hj4Ov3rIwAA/NMIAJSWX5t6J6LiFtCWXskECy7R\ne9k3oWAG8EAexVsIEac4+6L1HJ9Jvw1HIeksbqcNWtv4CdpO2M9aL7Pvi99Pw211\nymBXtCeoDwbR6poVB5dVyi+GeQqUtX15rqsJ1RVwn3u4O9TW7wdp+ACpMmHFKZdU\nGSe0a+9sAZ9ziVrjOu2vIXW9M97YXfdLmv0pBOiNyth7rrjmf9ZDheDyl+r0PU4B\nkv+GN+eq2NQdCnyTTyHaZ2xvvpDPrSSBCfP80NolNHSzp7DVZKmSgFYu3ETjyN7w\nC9/18HOnL/u0JFNr6tJEXJ3L8ooSS1W3uP965066S8YR84FE9zXjkxb+MaqoKrw=\n=JeAt\n-----END PGP SIGNATURE-----\n",
-      "payload": "tree b1c6c3ee8fa84bfee8f88636edb54de6ea0c3de2\nparent 0807ab44a59c35f65293f20aec9699d97dac3cb8\nauthor Ville Brofeldt <33317356+villebro@users.noreply.github.com> 1618923355 +0300\ncommitter GitHub <noreply@github.com> 1618923355 +0300\n\nchore(prophet): bump prophet to 1.0.1 (#14228)\n\n"
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfvjBCRBK7hj4Ov3rIwAA8E0IADKDUDaEOBkbXRR/Fy+Y3gk4\n1MouW4FLNivF/fyvCXbtTTOA0Ovndo4PWrNBo+FEFDDT8DlN07SnyMIXm69MN2lI\nyVN8fBYLILoZts9Ghk7ufE82F6j4Oh0oM+V4YsbR/ePQV2Y7eCjYin3Ci+NI3exf\njvlfwrLs2imQgo6WdGTq4HQS8AoUIH8yCZWJOmG57OTP1pSYAwQzQ6360C6PS8W/\nu/KjpbZG8c/xQM52nzWucid8S2kw35V+qbJyZKuAMMKiqwdhhL3FbVY2HhJNrIp1\nJ8h64r2p2wHuVW6WS2Smn7JnbplPyyuyqFAau9nxbnQY6a2XnGwqlB49WRGFpek=\n=98eN\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 2521fd4f6dc14fcf84019e002c8e585f4766ba93\nparent 42fb2286ad28f44fed0059a3e44ffffed309dd71\nauthor Amit Miran <47772523+amitmiran137@users.noreply.github.com> 1618933953 +0300\ncommitter GitHub <noreply@github.com> 1618933953 +0300\n\nfeat(native-filters): select group by support (#14217)\n\n* chore: initial commit\r\n\r\n* feat: groupby filter\r\n\r\nCo-authored-by: Simcha Shats <simcha.shats@nielsen.com>"
     }
   },
-  "url": "https://api.github.com/repos/apache/superset/commits/55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc",
-  "html_url": "https://github.com/apache/superset/commit/55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc",
-  "comments_url": "https://api.github.com/repos/apache/superset/commits/55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc/comments",
+  "url": "https://api.github.com/repos/apache/superset/commits/13d490271130810d7cf0b3eafc56ba71eeba66c0",
+  "html_url": "https://github.com/apache/superset/commit/13d490271130810d7cf0b3eafc56ba71eeba66c0",
+  "comments_url": "https://api.github.com/repos/apache/superset/commits/13d490271130810d7cf0b3eafc56ba71eeba66c0/comments",
   "author": {
-    "login": "villebro",
-    "id": 33317356,
-    "node_id": "MDQ6VXNlcjMzMzE3MzU2",
-    "avatar_url": "https://avatars.githubusercontent.com/u/33317356?v=4",
+    "login": "amitmiran137",
+    "id": 47772523,
+    "node_id": "MDQ6VXNlcjQ3NzcyNTIz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/47772523?v=4",
     "gravatar_id": "",
-    "url": "https://api.github.com/users/villebro",
-    "html_url": "https://github.com/villebro",
-    "followers_url": "https://api.github.com/users/villebro/followers",
-    "following_url": "https://api.github.com/users/villebro/following{/other_user}",
-    "gists_url": "https://api.github.com/users/villebro/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/villebro/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/villebro/subscriptions",
-    "organizations_url": "https://api.github.com/users/villebro/orgs",
-    "repos_url": "https://api.github.com/users/villebro/repos",
-    "events_url": "https://api.github.com/users/villebro/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/villebro/received_events",
+    "url": "https://api.github.com/users/amitmiran137",
+    "html_url": "https://github.com/amitmiran137",
+    "followers_url": "https://api.github.com/users/amitmiran137/followers",
+    "following_url": "https://api.github.com/users/amitmiran137/following{/other_user}",
+    "gists_url": "https://api.github.com/users/amitmiran137/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/amitmiran137/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/amitmiran137/subscriptions",
+    "organizations_url": "https://api.github.com/users/amitmiran137/orgs",
+    "repos_url": "https://api.github.com/users/amitmiran137/repos",
+    "events_url": "https://api.github.com/users/amitmiran137/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/amitmiran137/received_events",
     "type": "User",
     "site_admin": false
   },
@@ -71,9 +71,9 @@
   },
   "parents": [
     {
-      "sha": "0807ab44a59c35f65293f20aec9699d97dac3cb8",
-      "url": "https://api.github.com/repos/apache/superset/commits/0807ab44a59c35f65293f20aec9699d97dac3cb8",
-      "html_url": "https://github.com/apache/superset/commit/0807ab44a59c35f65293f20aec9699d97dac3cb8"
+      "sha": "42fb2286ad28f44fed0059a3e44ffffed309dd71",
+      "url": "https://api.github.com/repos/apache/superset/commits/42fb2286ad28f44fed0059a3e44ffffed309dd71",
+      "html_url": "https://github.com/apache/superset/commit/42fb2286ad28f44fed0059a3e44ffffed309dd71"
     }
   ]
 }
