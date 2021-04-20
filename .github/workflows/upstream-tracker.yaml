@@ -33,11 +33,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: echo ${{ needs.get-revision.outputs.modified }}
-      if: needs.get-revision.outputs.modified == 'true'
     - name: Publish to GitHub Registry
       uses: elgohr/Publish-Docker-Github-Action@master
-      if: needs.get-revision.outputs.modified == 'true'
       with:
         name: ghcr.io/${{ github.repository_owner }}/${{ matrix.DOCKER_IMAGE }}
         username: ${{ github.actor }}
