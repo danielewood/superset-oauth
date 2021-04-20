@@ -1,51 +1,51 @@
 {
-  "sha": "25922e341f3e926812f4d633d649c4f6e4f17eec",
-  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6MjU5MjJlMzQxZjNlOTI2ODEyZjRkNjMzZDY0OWM0ZjZlNGYxN2VlYw==",
+  "sha": "9d67b465763fa9321d4174de079b30fc244a9743",
+  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6OWQ2N2I0NjU3NjNmYTkzMjFkNDE3NGRlMDc5YjMwZmMyNDRhOTc0Mw==",
   "commit": {
     "author": {
-      "name": "Rob DiCiuccio",
-      "email": "rob.diciuccio@gmail.com",
-      "date": "2021-04-20T05:19:18Z"
+      "name": "simcha90",
+      "email": "56388545+simcha90@users.noreply.github.com",
+      "date": "2021-04-20T06:48:23Z"
     },
     "committer": {
       "name": "GitHub",
       "email": "noreply@github.com",
-      "date": "2021-04-20T05:19:18Z"
+      "date": "2021-04-20T06:48:23Z"
     },
-    "message": "Add Preset code owners for ephemeral test env workflows (#14238)",
+    "message": "fix(native-filters): fix remove native filters (#14218)\n\n* fix:fix get permission function\r\n\r\n* fix: clean data mask on chart removing\r\n\r\n* refactor: fix reducer",
     "tree": {
-      "sha": "81302f7b677d285586328164c622c2e350c2c638",
-      "url": "https://api.github.com/repos/apache/superset/git/trees/81302f7b677d285586328164c622c2e350c2c638"
+      "sha": "7d161b3bc1b6d90849828572b4cf66845215cf78",
+      "url": "https://api.github.com/repos/apache/superset/git/trees/7d161b3bc1b6d90849828572b4cf66845215cf78"
     },
-    "url": "https://api.github.com/repos/apache/superset/git/commits/25922e341f3e926812f4d633d649c4f6e4f17eec",
+    "url": "https://api.github.com/repos/apache/superset/git/commits/9d67b465763fa9321d4174de079b30fc244a9743",
     "comment_count": 0,
     "verification": {
       "verified": true,
       "reason": "valid",
-      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfmRWCRBK7hj4Ov3rIwAAhiwIAEt7+X/f/oneLgAhXpZduptL\nEXGAz9eY6jJiD2jyLtbXcEb6U/8Qn2yuHwA7soa8zgC7x8mN78YGZ2B8k+51ecaz\n46p/iDaV6KVd/Q+aoHkw5Y5pUS80oTDDcCJjzoBQ7ELQuIrzlHeZ7T6h7uG7xbLS\n2Ho1JU5YJn6ILfxV1Op9qwHDjvXi+IfLj2KOXI0SpM1ahYc+WMGfmn1X3EO8iiH7\nuKs98EJP4w7WAE8fTtSDR6k5RvIQICtzbpdkaSgvRpi5NXAInhNnRi7J3xdsz2oP\nQVzCTexvx2ea53IPSqvkc+ROC5MXg5rIcGhd/DyIBB5r4bL/xXH4huksOjSl6kA=\n=u3Ic\n-----END PGP SIGNATURE-----\n",
-      "payload": "tree 81302f7b677d285586328164c622c2e350c2c638\nparent 13bf0231001534a08fad25405162cd7c41c14f11\nauthor Rob DiCiuccio <rob.diciuccio@gmail.com> 1618895958 -0700\ncommitter GitHub <noreply@github.com> 1618895958 -0700\n\nAdd Preset code owners for ephemeral test env workflows (#14238)\n\n"
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfnk3CRBK7hj4Ov3rIwAAkdsIAFUyPlBwkfSXtzUXo8r+PndO\nZWPus6PZPp+m1DwqkHmDEwDqhDQOsJUHBt/1tgDkHjWOpMBtQ14+skjv74u+inig\nkoQF/TW5608+ct990k82QPoQgYm0r5+fp5W+MGAJkdKFNCKDPJdowCv4DMdNd808\n5ma2RN/Mqwj3prhW7oXyM80W4I0EAV00e1HjNpxJIonxQ1jDyjxOn5Sud4rU2q8X\nLYRydW600ktBduLMM+BOvKkswjdORuI6BrW/9S1PxM5kr2SeZVjX53NfsereH/Hc\nWKYiwmrc1auyrMl65oTm4AYEVVe/Od15EblYp2GuNhJGkgSYrVdeidDTJ7eGvvs=\n=UMbM\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 7d161b3bc1b6d90849828572b4cf66845215cf78\nparent 25922e341f3e926812f4d633d649c4f6e4f17eec\nauthor simcha90 <56388545+simcha90@users.noreply.github.com> 1618901303 +0300\ncommitter GitHub <noreply@github.com> 1618901303 +0300\n\nfix(native-filters): fix remove native filters (#14218)\n\n* fix:fix get permission function\r\n\r\n* fix: clean data mask on chart removing\r\n\r\n* refactor: fix reducer"
     }
   },
-  "url": "https://api.github.com/repos/apache/superset/commits/25922e341f3e926812f4d633d649c4f6e4f17eec",
-  "html_url": "https://github.com/apache/superset/commit/25922e341f3e926812f4d633d649c4f6e4f17eec",
-  "comments_url": "https://api.github.com/repos/apache/superset/commits/25922e341f3e926812f4d633d649c4f6e4f17eec/comments",
+  "url": "https://api.github.com/repos/apache/superset/commits/9d67b465763fa9321d4174de079b30fc244a9743",
+  "html_url": "https://github.com/apache/superset/commit/9d67b465763fa9321d4174de079b30fc244a9743",
+  "comments_url": "https://api.github.com/repos/apache/superset/commits/9d67b465763fa9321d4174de079b30fc244a9743/comments",
   "author": {
-    "login": "robdiciuccio",
-    "id": 296227,
-    "node_id": "MDQ6VXNlcjI5NjIyNw==",
-    "avatar_url": "https://avatars.githubusercontent.com/u/296227?v=4",
+    "login": "simcha90",
+    "id": 56388545,
+    "node_id": "MDQ6VXNlcjU2Mzg4NTQ1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/56388545?v=4",
     "gravatar_id": "",
-    "url": "https://api.github.com/users/robdiciuccio",
-    "html_url": "https://github.com/robdiciuccio",
-    "followers_url": "https://api.github.com/users/robdiciuccio/followers",
-    "following_url": "https://api.github.com/users/robdiciuccio/following{/other_user}",
-    "gists_url": "https://api.github.com/users/robdiciuccio/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/robdiciuccio/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/robdiciuccio/subscriptions",
-    "organizations_url": "https://api.github.com/users/robdiciuccio/orgs",
-    "repos_url": "https://api.github.com/users/robdiciuccio/repos",
-    "events_url": "https://api.github.com/users/robdiciuccio/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/robdiciuccio/received_events",
+    "url": "https://api.github.com/users/simcha90",
+    "html_url": "https://github.com/simcha90",
+    "followers_url": "https://api.github.com/users/simcha90/followers",
+    "following_url": "https://api.github.com/users/simcha90/following{/other_user}",
+    "gists_url": "https://api.github.com/users/simcha90/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/simcha90/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/simcha90/subscriptions",
+    "organizations_url": "https://api.github.com/users/simcha90/orgs",
+    "repos_url": "https://api.github.com/users/simcha90/repos",
+    "events_url": "https://api.github.com/users/simcha90/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/simcha90/received_events",
     "type": "User",
     "site_admin": false
   },
@@ -71,9 +71,9 @@
   },
   "parents": [
     {
-      "sha": "13bf0231001534a08fad25405162cd7c41c14f11",
-      "url": "https://api.github.com/repos/apache/superset/commits/13bf0231001534a08fad25405162cd7c41c14f11",
-      "html_url": "https://github.com/apache/superset/commit/13bf0231001534a08fad25405162cd7c41c14f11"
+      "sha": "25922e341f3e926812f4d633d649c4f6e4f17eec",
+      "url": "https://api.github.com/repos/apache/superset/commits/25922e341f3e926812f4d633d649c4f6e4f17eec",
+      "html_url": "https://github.com/apache/superset/commit/25922e341f3e926812f4d633d649c4f6e4f17eec"
     }
   ]
 }
