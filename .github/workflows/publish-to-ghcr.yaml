@@ -1,8 +1,9 @@
-name: Publish custom Docker images to GitHub Container Repository
+name: Publish to GitHub Container Repository
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 jobs:
   build:
     strategy:

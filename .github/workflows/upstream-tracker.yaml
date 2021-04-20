@@ -1,7 +1,7 @@
 name: Get latest upstream revision
 on:
   schedule:
-    - cron:  '*/10 * * * *' # Every 10 minutes
+    - cron:  '10 * * * *' # Every Hour
   workflow_dispatch:
 jobs:
   get-revision:
@@ -11,7 +11,7 @@ jobs:
       - name: Fetch release version
         run: |
           curl -sL https://api.github.com/repos/apache/superset/branches/master | \
-          jq ".commit" > superset-master.txt
+          jq ".commit" > superset-master.json
       - name: Check for modified files
         id: git-check
         run: echo ::set-output name=modified::$([ -z "`git status --porcelain`" ] && echo "false" || echo "true")
