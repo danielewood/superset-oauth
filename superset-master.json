@@ -1,34 +1,34 @@
 {
-  "sha": "0807ab44a59c35f65293f20aec9699d97dac3cb8",
-  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6MDgwN2FiNDRhNTljMzVmNjUyOTNmMjBhZWM5Njk5ZDk3ZGFjM2NiOA==",
+  "sha": "55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc",
+  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6NTViZjcyYWVhZDRmZDI3ZjQ5ZWNlYzRiNGVmMGNmYmZjNzQ3MzNjYw==",
   "commit": {
     "author": {
       "name": "Ville Brofeldt",
       "email": "33317356+villebro@users.noreply.github.com",
-      "date": "2021-04-20T11:24:33Z"
+      "date": "2021-04-20T12:55:55Z"
     },
     "committer": {
       "name": "GitHub",
       "email": "noreply@github.com",
-      "date": "2021-04-20T11:24:33Z"
+      "date": "2021-04-20T12:55:55Z"
     },
-    "message": "fix(native-filters): merge_extra_form_data extras processing (#14244)\n\n* fix: merge_extra_form_data extras processing\r\n\r\n* move props that are later moved back in viz.py",
+    "message": "chore(prophet): bump prophet to 1.0.1 (#14228)",
     "tree": {
-      "sha": "28c754ece99b6215651996bd87d59f4a3197237b",
-      "url": "https://api.github.com/repos/apache/superset/git/trees/28c754ece99b6215651996bd87d59f4a3197237b"
+      "sha": "b1c6c3ee8fa84bfee8f88636edb54de6ea0c3de2",
+      "url": "https://api.github.com/repos/apache/superset/git/trees/b1c6c3ee8fa84bfee8f88636edb54de6ea0c3de2"
     },
-    "url": "https://api.github.com/repos/apache/superset/git/commits/0807ab44a59c35f65293f20aec9699d97dac3cb8",
+    "url": "https://api.github.com/repos/apache/superset/git/commits/55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc",
     "comment_count": 0,
     "verification": {
       "verified": true,
       "reason": "valid",
-      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfrnxCRBK7hj4Ov3rIwAAXdcIAFz0EEqPuVA0UkHXhbcGmtm4\nePA6VGS8c+n7PpadINzDnhbRiMcm32GewdMYQOmX4UkhOA4aU5N4duw8PFRCmgXv\noWRiL7wq0kYk6MS890J1nimJ6QA9L+BkUwqbqwZHFBBX1rPkUUm97aZ6vgUa7R6r\ni5IauQPwOyr0QubwdXMInBppJyRGAohtIX4KbF74BysNm+ig6hudsjsYZf/v3ima\n61lMu1+TEJH3CiFR9m6bGFX0bT0MN3P9LS32aNzCS32D28EVuj1mtBNn7aw+gnGO\ndgBA1Ap6s1qlSwJnq0h4DEDGnvsWBZCmrv7oRenMuOtnf1xlI5zp3DktsxjIT3w=\n=bgrs\n-----END PGP SIGNATURE-----\n",
-      "payload": "tree 28c754ece99b6215651996bd87d59f4a3197237b\nparent 7e5440a359e90b1d36f1caa7fc2fb31c816ede49\nauthor Ville Brofeldt <33317356+villebro@users.noreply.github.com> 1618917873 +0300\ncommitter GitHub <noreply@github.com> 1618917873 +0300\n\nfix(native-filters): merge_extra_form_data extras processing (#14244)\n\n* fix: merge_extra_form_data extras processing\r\n\r\n* move props that are later moved back in viz.py"
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfs9bCRBK7hj4Ov3rIwAA/NMIAJSWX5t6J6LiFtCWXskECy7R\ne9k3oWAG8EAexVsIEac4+6L1HJ9Jvw1HIeksbqcNWtv4CdpO2M9aL7Pvi99Pw211\nymBXtCeoDwbR6poVB5dVyi+GeQqUtX15rqsJ1RVwn3u4O9TW7wdp+ACpMmHFKZdU\nGSe0a+9sAZ9ziVrjOu2vIXW9M97YXfdLmv0pBOiNyth7rrjmf9ZDheDyl+r0PU4B\nkv+GN+eq2NQdCnyTTyHaZ2xvvpDPrSSBCfP80NolNHSzp7DVZKmSgFYu3ETjyN7w\nC9/18HOnL/u0JFNr6tJEXJ3L8ooSS1W3uP965066S8YR84FE9zXjkxb+MaqoKrw=\n=JeAt\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree b1c6c3ee8fa84bfee8f88636edb54de6ea0c3de2\nparent 0807ab44a59c35f65293f20aec9699d97dac3cb8\nauthor Ville Brofeldt <33317356+villebro@users.noreply.github.com> 1618923355 +0300\ncommitter GitHub <noreply@github.com> 1618923355 +0300\n\nchore(prophet): bump prophet to 1.0.1 (#14228)\n\n"
     }
   },
-  "url": "https://api.github.com/repos/apache/superset/commits/0807ab44a59c35f65293f20aec9699d97dac3cb8",
-  "html_url": "https://github.com/apache/superset/commit/0807ab44a59c35f65293f20aec9699d97dac3cb8",
-  "comments_url": "https://api.github.com/repos/apache/superset/commits/0807ab44a59c35f65293f20aec9699d97dac3cb8/comments",
+  "url": "https://api.github.com/repos/apache/superset/commits/55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc",
+  "html_url": "https://github.com/apache/superset/commit/55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc",
+  "comments_url": "https://api.github.com/repos/apache/superset/commits/55bf72aead4fd27f49ecec4b4ef0cfbfc74733cc/comments",
   "author": {
     "login": "villebro",
     "id": 33317356,
@@ -71,9 +71,9 @@
   },
   "parents": [
     {
-      "sha": "7e5440a359e90b1d36f1caa7fc2fb31c816ede49",
-      "url": "https://api.github.com/repos/apache/superset/commits/7e5440a359e90b1d36f1caa7fc2fb31c816ede49",
-      "html_url": "https://github.com/apache/superset/commit/7e5440a359e90b1d36f1caa7fc2fb31c816ede49"
+      "sha": "0807ab44a59c35f65293f20aec9699d97dac3cb8",
+      "url": "https://api.github.com/repos/apache/superset/commits/0807ab44a59c35f65293f20aec9699d97dac3cb8",
+      "html_url": "https://github.com/apache/superset/commit/0807ab44a59c35f65293f20aec9699d97dac3cb8"
     }
   ]
 }
