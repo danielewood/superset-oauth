@@ -1,51 +1,51 @@
 {
-  "sha": "d386e66f590c9df9b7063a15248700603b0f5e4d",
-  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6ZDM4NmU2NmY1OTBjOWRmOWI3MDYzYTE1MjQ4NzAwNjAzYjBmNWU0ZA==",
+  "sha": "6119d8e998601d214030e61eeed8b1709342fa3b",
+  "node_id": "MDY6Q29tbWl0Mzk0NjQwMTg6NjExOWQ4ZTk5ODYwMWQyMTQwMzBlNjFlZWVkOGIxNzA5MzQyZmEzYg==",
   "commit": {
     "author": {
-      "name": "simcha90",
-      "email": "56388545+simcha90@users.noreply.github.com",
-      "date": "2021-04-20T09:24:12Z"
+      "name": "Kamil Gabryjelski",
+      "email": "kamil.gabryjelski@gmail.com",
+      "date": "2021-04-20T09:45:48Z"
     },
     "committer": {
       "name": "GitHub",
       "email": "noreply@github.com",
-      "date": "2021-04-20T09:24:12Z"
+      "date": "2021-04-20T09:45:48Z"
     },
-    "message": "test(native-filters): add integration tests for filter bar (#14098)\n\n* test: add tests for filter bar\r\n\r\n* test: merge filter bar tests with master\r\n\r\n* test: add test for filter set\r\n\r\n* test: filter set tests\r\n\r\n* test: merge with master\r\n\r\n* test: fix tests for filter bar\r\n\r\n* fix: fix CR notes\r\n\r\n* fix: fix CR notes",
+    "message": "Fix filter edit popover not opening in DnD mode (#14243)",
     "tree": {
-      "sha": "0f1d3c109206335833aaa6876e3a50aaca9bcf80",
-      "url": "https://api.github.com/repos/apache/superset/git/trees/0f1d3c109206335833aaa6876e3a50aaca9bcf80"
+      "sha": "d117d0ca520e47a7e51c5a7fb7458456927bdc4b",
+      "url": "https://api.github.com/repos/apache/superset/git/trees/d117d0ca520e47a7e51c5a7fb7458456927bdc4b"
     },
-    "url": "https://api.github.com/repos/apache/superset/git/commits/d386e66f590c9df9b7063a15248700603b0f5e4d",
+    "url": "https://api.github.com/repos/apache/superset/git/commits/6119d8e998601d214030e61eeed8b1709342fa3b",
     "comment_count": 0,
     "verification": {
       "verified": true,
       "reason": "valid",
-      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfp28CRBK7hj4Ov3rIwAA49YIAFox123Ts9Xqp28yu+/UQtS0\nCK6+RlzO+pOLVChfcneyqVEPzRTwxMwaHDK6CvZ/rvscROKvu8yfXlT4oVb5b1HM\nLMyOTADrVPB11tcxzKFk8u/U4snprcAYG3GEumpBOgJ143FKRO9NJ+UZdm3JXv2a\nTpumULJ/nd3+DnPooTHzZV8ufl23FHGfrYI1FvBct/l18+0prURoLdcKohxQR3H8\nvITtWhLNkdfKafNCgbF2M+wxC+f92LHyF2RzTyC5bZ8UMSbd0KtdYlRsDC+ApHbb\nfcWijcEJfnsk5RYdoXITv2wa9q0MQ2nBoHMVZQh7ceNmakZtVyur3AuE2P+Uh7U=\n=/Geo\n-----END PGP SIGNATURE-----\n",
-      "payload": "tree 0f1d3c109206335833aaa6876e3a50aaca9bcf80\nparent 9d67b465763fa9321d4174de079b30fc244a9743\nauthor simcha90 <56388545+simcha90@users.noreply.github.com> 1618910652 +0300\ncommitter GitHub <noreply@github.com> 1618910652 +0300\n\ntest(native-filters): add integration tests for filter bar (#14098)\n\n* test: add tests for filter bar\r\n\r\n* test: merge filter bar tests with master\r\n\r\n* test: add test for filter set\r\n\r\n* test: filter set tests\r\n\r\n* test: merge with master\r\n\r\n* test: fix tests for filter bar\r\n\r\n* fix: fix CR notes\r\n\r\n* fix: fix CR notes"
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgfqLMCRBK7hj4Ov3rIwAAuakIAH3d1LgUwR1ivW5p3wZqbrlL\nuXCo/4vnF8zczo55EaF69DLbUsVeqI/m62FHQkxMZ5V0t0Pa3XS+7+Np8KtCmVza\naBJxgffzzQquWwXOYvtoiA1MUnM15pvgShI5i6CCVeUMYLiSzJiYBoUbKOW1fmMb\nevKFHnv2qy/DdE7IN7dHwM1sAzfzcGepMIW0qPz1vtuy34Ood7F+A75N6J6FYaCy\n//SI20/KTUxiX/DH6xD0/7DCmCmJhv/PCw/tddz5CiGBwQva/6hLT4UZVzvJheX3\nDxMUMpWatZlI4ufQ2wMYOfnNg4R9Wz0abThQU07Hv7ClU7dv4AOz0X02crxwMjQ=\n=guws\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree d117d0ca520e47a7e51c5a7fb7458456927bdc4b\nparent d386e66f590c9df9b7063a15248700603b0f5e4d\nauthor Kamil Gabryjelski <kamil.gabryjelski@gmail.com> 1618911948 +0200\ncommitter GitHub <noreply@github.com> 1618911948 +0200\n\nFix filter edit popover not opening in DnD mode (#14243)\n\n"
     }
   },
-  "url": "https://api.github.com/repos/apache/superset/commits/d386e66f590c9df9b7063a15248700603b0f5e4d",
-  "html_url": "https://github.com/apache/superset/commit/d386e66f590c9df9b7063a15248700603b0f5e4d",
-  "comments_url": "https://api.github.com/repos/apache/superset/commits/d386e66f590c9df9b7063a15248700603b0f5e4d/comments",
+  "url": "https://api.github.com/repos/apache/superset/commits/6119d8e998601d214030e61eeed8b1709342fa3b",
+  "html_url": "https://github.com/apache/superset/commit/6119d8e998601d214030e61eeed8b1709342fa3b",
+  "comments_url": "https://api.github.com/repos/apache/superset/commits/6119d8e998601d214030e61eeed8b1709342fa3b/comments",
   "author": {
-    "login": "simcha90",
-    "id": 56388545,
-    "node_id": "MDQ6VXNlcjU2Mzg4NTQ1",
-    "avatar_url": "https://avatars.githubusercontent.com/u/56388545?v=4",
+    "login": "kgabryje",
+    "id": 15073128,
+    "node_id": "MDQ6VXNlcjE1MDczMTI4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/15073128?v=4",
     "gravatar_id": "",
-    "url": "https://api.github.com/users/simcha90",
-    "html_url": "https://github.com/simcha90",
-    "followers_url": "https://api.github.com/users/simcha90/followers",
-    "following_url": "https://api.github.com/users/simcha90/following{/other_user}",
-    "gists_url": "https://api.github.com/users/simcha90/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/simcha90/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/simcha90/subscriptions",
-    "organizations_url": "https://api.github.com/users/simcha90/orgs",
-    "repos_url": "https://api.github.com/users/simcha90/repos",
-    "events_url": "https://api.github.com/users/simcha90/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/simcha90/received_events",
+    "url": "https://api.github.com/users/kgabryje",
+    "html_url": "https://github.com/kgabryje",
+    "followers_url": "https://api.github.com/users/kgabryje/followers",
+    "following_url": "https://api.github.com/users/kgabryje/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kgabryje/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kgabryje/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kgabryje/subscriptions",
+    "organizations_url": "https://api.github.com/users/kgabryje/orgs",
+    "repos_url": "https://api.github.com/users/kgabryje/repos",
+    "events_url": "https://api.github.com/users/kgabryje/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kgabryje/received_events",
     "type": "User",
     "site_admin": false
   },
@@ -71,9 +71,9 @@
   },
   "parents": [
     {
-      "sha": "9d67b465763fa9321d4174de079b30fc244a9743",
-      "url": "https://api.github.com/repos/apache/superset/commits/9d67b465763fa9321d4174de079b30fc244a9743",
-      "html_url": "https://github.com/apache/superset/commit/9d67b465763fa9321d4174de079b30fc244a9743"
+      "sha": "d386e66f590c9df9b7063a15248700603b0f5e4d",
+      "url": "https://api.github.com/repos/apache/superset/commits/d386e66f590c9df9b7063a15248700603b0f5e4d",
+      "html_url": "https://github.com/apache/superset/commit/d386e66f590c9df9b7063a15248700603b0f5e4d"
     }
   ]
 }
