@@ -1,7 +1,7 @@
 name: Get latest upstream revision
 on:
   schedule:
-    - cron:  '0 0 * * *' # Daily
+    - cron:  '*/5 * * * *' # Every 5 minutes
 jobs:
   get-revision:
     runs-on: ubuntu-latest
