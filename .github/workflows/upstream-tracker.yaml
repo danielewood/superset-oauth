@@ -33,9 +33,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Actions
-    - if: false
+      run: echo ${{ needs.get-revision.outputs.modified }}
     - uses: actions/checkout@v2
-    - run: echo ${{ needs.get-revision.outputs.modified }}
     - name: Publish to GitHub Registry
       if: false
       uses: elgohr/Publish-Docker-Github-Action@master
