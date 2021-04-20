@@ -44,7 +44,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Use upstream tag in Dockerfile
-    - run: |
+      run: |
         sed -i '' "s/FROM apache\/superset AS lean/FROM apache\/superset:${{ needs.check-upstream.outputs.upstream-tag }} AS lean/" Dockerfile.${{ matrix.DOCKER_IMAGE }}
     - name: Publish to GitHub Registry
       uses: elgohr/Publish-Docker-Github-Action@master
