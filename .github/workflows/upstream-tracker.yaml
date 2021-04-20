@@ -27,10 +27,10 @@ jobs:
       matrix:
         DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
     runs-on: ubuntu-latest
+    if: steps.git-check.outputs.modified == 'true'
     steps:
     - uses: actions/checkout@v2
     - name: Publish to GitHub Registry
-      if: steps.git-check.outputs.modified == 'true'
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
         name: ghcr.io/${{ github.repository_owner }}/${{ matrix.DOCKER_IMAGE }}
