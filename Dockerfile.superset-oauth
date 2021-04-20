@@ -1,0 +1,43 @@
+FROM apache/superset AS lean
+
+ENV LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8 \
+    FLASK_ENV=production \
+    FLASK_APP="superset.app:create_app()" \
+    PYTHONPATH="/app/pythonpath" \
+    SUPERSET_HOME="/app/superset_home" \
+    SUPERSET_PORT=8088
+
+USER root
+
+RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
+      && apt-get update -y \
+      && apt-get install -y --no-install-recommends \
+           build-essential \
+           default-libmysqlclient-dev \
+           libsasl2-modules-gssapi-mit \
+           libpq-dev \
+           nano \
+      && rm -rf /var/lib/apt/lists/* \
+      && pip install --no-cache \
+           "psycopg2==2.8.5" \
+           "redis==3.2.1" \
+           thrift_sasl \
+           impyla \
+           sasl \
+           thrift \
+           mysqlclient \
+           snowflake-sqlalchemy \
+           Authlib \
+      && pip install --no-cache --force-reinstall --no-deps \
+           'git+https://github.com/danielewood/impyla.git@fix-table-descriptions-superset'
+
+WORKDIR /app
+
+USER superset
+
+HEALTHCHECK CMD curl -f "http://localhost:$SUPERSET_PORT/health"
+
+EXPOSE ${SUPERSET_PORT}
+
+ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
