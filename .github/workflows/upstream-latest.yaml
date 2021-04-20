@@ -1,4 +1,4 @@
-name: Update Container
+name: Update Container (latest)
 on:
   schedule:
     - cron:  '10 0 * * *' # Every Day
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       modified: ${{ steps.git-check.outputs.modified }}
-      upstream-tag: ${{ steps.upstream-tag.outputs.modified }}
+      upstream-tag: ${{ steps.upstream-tag.outputs.upstream-tag }}
     steps:
       - uses: actions/checkout@v2
       - name: Fetch release version
@@ -25,7 +25,7 @@ jobs:
       - name: Store upstream tag
         if: steps.git-check.outputs.modified == 'true'
         id: upstream-tag
-        run: echo ::set-output name=tag::$(cat superset-release-version.txt)
+        run: echo ::set-output name=upstream-tag::$(cat superset-release-version.txt)
       - name: Commit latest upstream revision
         if: steps.git-check.outputs.modified == 'true'
         run: |
@@ -43,6 +43,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Use upstream tag in Dockerfile
+    - run: sed -i '' "s/FROM apache\/superset AS lean/FROM apache\/superset:${{ needs.check-upstream.outputs.upstream-tag }} AS lean/" Dockerfile.${{ matrix.DOCKER_IMAGE }}
     - name: Publish to GitHub Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
@@ -51,4 +53,4 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: ghcr.io
         dockerfile: Dockerfile.${{ matrix.DOCKER_IMAGE }}
-        tags: "latest,stable,${{ needs.check-upstream.outputs.tag }}"
+        tags: "latest,stable,${{ needs.check-upstream.outputs.upstream-tag }}"

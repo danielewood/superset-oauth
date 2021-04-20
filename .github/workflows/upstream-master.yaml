@@ -1,4 +1,4 @@
-name: Update Container
+name: Update Container (master)
 on:
   schedule:
     - cron:  '10 * * * *' # Every Hour
