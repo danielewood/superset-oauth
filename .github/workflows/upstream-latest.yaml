@@ -1,0 +1,54 @@
+name: Update Container
+on:
+  schedule:
+    - cron:  '10 0 * * *' # Every Day
+  workflow_dispatch:
+jobs:
+  check-upstream:
+    name: Check for new upstream revision
+    runs-on: ubuntu-latest
+    outputs:
+      modified: ${{ steps.git-check.outputs.modified }}
+      upstream-tag: ${{ steps.upstream-tag.outputs.modified }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Fetch release version
+        run: |
+          curl -sL https://api.github.com/repos/apache/superset/releases | \
+          jq -r .[].tag_name | \
+          sort -Vr | \
+          grep -E '^1.\d+\.\d+$' | \
+          head -1 > superset-release-version.txt
+      - name: Check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$([ -z "`git status --porcelain`" ] && echo "unchanged" || echo "true")
+      - name: Store upstream tag
+        if: steps.git-check.outputs.modified == 'true'
+        id: upstream-tag
+        run: echo ::set-output name=tag::$(cat superset-release-version.txt)
+      - name: Commit latest upstream revision
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --global user.name '${{ github.actor }}'
+          git config --global user.email '${{ github.actor }}@users.noreply.github.com'
+          git commit -am "New upstream revision"
+          git push
+  publish-image:
+    name: Publish to ghcr.io
+    needs: check-upstream
+    if: needs.check-upstream.outputs.modified == 'true'
+    strategy:
+      matrix:
+        DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Publish to GitHub Registry
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: ghcr.io/${{ github.repository_owner }}/${{ matrix.DOCKER_IMAGE }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+        registry: ghcr.io
+        dockerfile: Dockerfile.${{ matrix.DOCKER_IMAGE }}
+        tags: "latest,stable,${{ needs.check-upstream.outputs.tag }}"

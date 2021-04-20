@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       modified: ${{ steps.git-check.outputs.modified }}
+      upstream-tag: ${{ steps.upstream-tag.outputs.modified }}
     steps:
       - uses: actions/checkout@v2
       - name: Fetch upstream revision
@@ -43,3 +44,4 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: ghcr.io
         dockerfile: Dockerfile.${{ matrix.DOCKER_IMAGE }}
+        tags: "master"
