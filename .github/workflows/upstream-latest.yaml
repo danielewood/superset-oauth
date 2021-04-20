@@ -10,6 +10,8 @@ jobs:
     outputs:
       modified: ${{ steps.git-check.outputs.modified }}
       upstream-tag: ${{ steps.upstream-tag.outputs.upstream-tag }}
+      upstream-major: ${{ steps.upstream-tag.outputs.upstream-major }}
+      upstream-minor: ${{ steps.upstream-tag.outputs.upstream-minor }}
     steps:
       - uses: actions/checkout@v2
       - name: Fetch release version
@@ -26,7 +28,11 @@ jobs:
       - name: Store upstream tag
         if: steps.git-check.outputs.modified == 'true'
         id: upstream-tag
-        run: echo ::set-output name=upstream-tag::$(jq -r '.[].tag_name' superset-latest.json)
+        run: |
+          upstreamTag=$(jq -r '.tag_name' superset-latest.json)
+          echo ::set-output name=upstream-tag::${upstreamTag}
+          echo ::set-output name=upstream-major::${upstreamTag%.*}
+          echo ::set-output name=upstream-minor::${upstreamTag%%.*}
       - name: Commit latest upstream revision
         if: steps.git-check.outputs.modified == 'true'
         run: |
@@ -55,4 +61,4 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: ghcr.io
         dockerfile: Dockerfile.${{ matrix.DOCKER_IMAGE }}
-        tags: "latest,stable,${{ needs.check-upstream.outputs.upstream-tag }}"
+        tags: "latest,stable,v${{ needs.check-upstream.outputs.upstream-tag }},v${{ needs.check-upstream.outputs.upstream-major }},v${{ needs.check-upstream.outputs.upstream-minor }}"
