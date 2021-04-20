@@ -25,11 +25,12 @@ jobs:
           git commit -am "New upstream revision"
           git push
   build:
+    needs: get-revision
+    if: ${{ needs.get-revision.outputs.modified }} == 'true'
     strategy:
       matrix:
         DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
     runs-on: ubuntu-latest
-    if: ${{ needs.get-revision.outputs.modified }} == 'true'
     steps:
     - uses: actions/checkout@v2
     - name: Publish to GitHub Registry
