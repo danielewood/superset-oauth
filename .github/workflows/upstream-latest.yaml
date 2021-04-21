@@ -31,8 +31,8 @@ jobs:
         run: |
           upstreamTag=$(jq -r '.tag_name' superset-latest.json)
           echo ::set-output name=upstream-tag::${upstreamTag}
-          echo ::set-output name=upstream-major::${upstreamTag%.*}
-          echo ::set-output name=upstream-minor::${upstreamTag%%.*}
+          echo ::set-output name=upstream-major::${upstreamTag%%.*}
+          echo ::set-output name=upstream-minor::${upstreamTag%.*}
       - name: Commit latest upstream revision
         if: steps.git-check.outputs.modified == 'true'
         run: |
