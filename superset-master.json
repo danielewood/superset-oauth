@@ -1,38 +1,38 @@
 {
-  "id": 785853474,
+  "id": 786298863,
   "name": "Docker",
-  "node_id": "MDExOldvcmtmbG93UnVuNzg1ODUzNDc0",
+  "node_id": "MDExOldvcmtmbG93UnVuNzg2Mjk4ODYz",
   "head_branch": "master",
-  "head_sha": "1c20ab4fe0f83f7be94cd3baccddaffad6f70ed5",
-  "run_number": 7322,
-  "event": "pull_request",
+  "head_sha": "437be4b689182fdfbcf79fa17b28fa418a64944d",
+  "run_number": 7346,
+  "event": "push",
   "status": "completed",
-  "conclusion": "action_required",
+  "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 2584805827,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUyNTg0ODA1ODI3",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/785853474",
-  "created_at": "2021-04-26T14:13:28Z",
-  "updated_at": "2021-04-26T14:13:28Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/785853474/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/785853474/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/2584805827",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/785853474/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/785853474/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/785853474/rerun",
+  "check_suite_id": 2586222824,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUyNTg2MjIyODI0",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/786298863",
+  "created_at": "2021-04-26T16:43:37Z",
+  "updated_at": "2021-04-26T17:01:04Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/786298863/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/786298863/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/2586222824",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/786298863/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/786298863/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/786298863/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "1c20ab4fe0f83f7be94cd3baccddaffad6f70ed5",
-    "tree_id": "a4fe6b463f40ba4ab2f37d82671bb01b36be8a65",
-    "message": "allow to specify imagePullSecrets",
-    "timestamp": "2021-04-26T13:54:42Z",
+    "id": "437be4b689182fdfbcf79fa17b28fa418a64944d",
+    "tree_id": "3be5293c0009b613d8a71041553e3eafe26839d7",
+    "message": "ci: set remote URL to https and bump sha (#14350)\n\n* ci: set remote URL to https and bump sha\r\n\r\n* update gitmodules",
+    "timestamp": "2021-04-26T16:43:32Z",
     "author": {
-      "name": "Maiko Kuppe",
-      "email": "maiko@instaffo.de"
+      "name": "Daniel Vaz Gaspar",
+      "email": "danielvazgaspar@gmail.com"
     },
     "committer": {
-      "name": "Maiko Kuppe",
-      "email": "maiko@instaffo.de"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
