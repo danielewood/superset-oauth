@@ -1,38 +1,38 @@
 {
-  "id": 797532221,
+  "id": 798439655,
   "name": "Docker",
-  "node_id": "MDExOldvcmtmbG93UnVuNzk3NTMyMjIx",
+  "node_id": "MDExOldvcmtmbG93UnVuNzk4NDM5NjU1",
   "head_branch": "master",
-  "head_sha": "982a91ee62e12b085c2d46bea90c06ada850d11f",
-  "run_number": 7585,
-  "event": "push",
+  "head_sha": "26773bf13b03bf8fba1e2be94e47e4f19e6f747e",
+  "run_number": 7591,
+  "event": "pull_request",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 2617081451,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUyNjE3MDgxNDUx",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/797532221",
-  "created_at": "2021-04-29T21:37:27Z",
-  "updated_at": "2021-04-29T21:54:52Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/797532221/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/797532221/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/2617081451",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/797532221/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/797532221/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/797532221/rerun",
+  "check_suite_id": 2619498792,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUyNjE5NDk4Nzky",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/798439655",
+  "created_at": "2021-04-30T05:34:41Z",
+  "updated_at": "2021-04-30T05:51:00Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/798439655/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/798439655/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/2619498792",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/798439655/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/798439655/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/798439655/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "982a91ee62e12b085c2d46bea90c06ada850d11f",
-    "tree_id": "3073a33b677a523f2709a9ec387fa393c8efbee7",
-    "message": "feat: Adding limiting_factor column to Query model (#14234)\n\n* add limiting factor to query model\r\n\r\n* varchar instead of enum",
-    "timestamp": "2021-04-29T21:37:22Z",
+    "id": "26773bf13b03bf8fba1e2be94e47e4f19e6f747e",
+    "tree_id": "bbe87a97b61607dfb9ed8f9127c8b364afb49d91",
+    "message": "Renamed impyla from implya in impala.mdx and Renamed PIP package impyla from impala in index.mdx",
+    "timestamp": "2021-04-30T05:26:41Z",
     "author": {
-      "name": "AAfghahi",
-      "email": "48933336+AAfghahi@users.noreply.github.com"
+      "name": "jagamts1",
+      "email": "jagadishmts@gmail.com"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "jagamts1",
+      "email": "jagadishmts@gmail.com"
     }
   }
 }
