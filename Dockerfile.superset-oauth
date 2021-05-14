@@ -20,8 +20,6 @@ RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
            nano \
       && rm -rf /var/lib/apt/lists/* \
       && pip install --no-cache \
-           "psycopg2==2.8.5" \
-           "redis==3.2.1" \
            thrift_sasl \
            impyla \
            sasl \
