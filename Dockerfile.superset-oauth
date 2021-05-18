@@ -20,10 +20,7 @@ RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
            nano \
       && rm -rf /var/lib/apt/lists/* \
       && pip install --no-cache \
-           thrift_sasl \
-           impyla \
-           sasl \
-           thrift \
+           impyla==0.17a7 \
            mysqlclient \
            snowflake-sqlalchemy \
            Authlib \
