@@ -26,7 +26,7 @@ RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
            Authlib \
       && pip install --no-cache --force-reinstall --no-deps \
            'git+https://github.com/danielewood/impyla.git@fix-table-descriptions-superset' \
-      && curl https://raw.githubusercontent.com/danielewood/superset/add-db-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
+      && curl https://raw.githubusercontent.com/danielewood/superset/test-new-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
       && chown superset:superset /app/superset/db_engine_specs/ascend.py
 
 WORKDIR /app
