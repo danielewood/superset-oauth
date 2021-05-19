@@ -57,7 +57,7 @@ jobs:
     name: Publish to ghcr.io
     needs: check-upstream
     if: | 
-      steps.git-check.outputs.modified == 'true' || 
+      needs.check-upstream.outputs.modified == 'true' || 
       ( github.event_name == 'push' ) ||
       ( github.event_name == 'workflow_dispatch' && github.event.inputs.force_deploy != 'false' )
     strategy:
