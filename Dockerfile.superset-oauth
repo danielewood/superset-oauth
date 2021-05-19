@@ -26,11 +26,8 @@ RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
            Authlib \
       && pip install --no-cache --force-reinstall --no-deps \
            'git+https://github.com/cloudera/impyla.git@master' \
-      && curl https://raw.githubusercontent.com/danielewood/superset/test-new-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
-      && chown superset:superset /app/superset/db_engine_specs/ascend.py \
-      && mkdir -p /home/superset/ \
-      && chmod -R 755 /home \
-      && chown -R superset:superset /home/superset/
+      && curl curl https://raw.githubusercontent.com/danielewood/superset/add-db-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
+      && chown superset:superset /app/superset/db_engine_specs/ascend.py
 
 WORKDIR /app
 
