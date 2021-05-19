@@ -8,6 +8,11 @@ on:
         description: 'Force a container build, even if no changes'
         required: true
         default: 'false'
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'Dockerfile.*'
 jobs:
   check-upstream:
     name: Check for new upstream revision
