@@ -13,6 +13,7 @@ on:
       - 'main'
     paths:
       - 'Dockerfile.*'
+      - '.github/workflows/**'
 jobs:
   check-upstream:
     name: Check for new upstream revision
@@ -36,7 +37,6 @@ jobs:
         id: git-check
         run: echo ::set-output name=modified::$([ -z "`git status --porcelain`" ] && echo "unchanged" || echo "true")
       - name: Store upstream tag
-        if: steps.git-check.outputs.modified == 'true' || github.event.inputs.force_deploy != 'false'
         id: upstream-tag
         run: |
           upstreamTag=$(jq -r '.tag_name' superset-latest.json)
@@ -44,7 +44,10 @@ jobs:
           echo ::set-output name=upstream-major::${upstreamTag%%.*}
           echo ::set-output name=upstream-minor::${upstreamTag%.*}
       - name: Commit latest upstream revision
-        if: steps.git-check.outputs.modified == 'true'
+        if: | 
+          steps.git-check.outputs.modified == 'true' || 
+          ( github.event_name = 'push' ) ||
+          ( github.event_name = 'workflow_dispatch' && github.event.inputs.force_deploy != 'false' )
         run: |
           git config --global user.name '${{ github.actor }}'
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
@@ -53,7 +56,10 @@ jobs:
   publish-image:
     name: Publish to ghcr.io
     needs: check-upstream
-    if: needs.check-upstream.outputs.modified == 'true' || github.event.inputs.force_deploy != 'false'
+    if: | 
+      steps.git-check.outputs.modified == 'true' || 
+      ( github.event_name = 'push' ) ||
+      ( github.event_name = 'workflow_dispatch' && github.event.inputs.force_deploy != 'false' )
     strategy:
       matrix:
         DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
