@@ -20,10 +20,11 @@ RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
            nano \
       && rm -rf /var/lib/apt/lists/* \
       && pip install --no-cache \
+           Authlib \
+           fbprophet \
            'git+https://github.com/cloudera/impyla.git@ba0413426d3d7a0f53125465391782eefc62fa1a' \
            mysqlclient \
            snowflake-sqlalchemy \
-           Authlib \
       && curl https://raw.githubusercontent.com/danielewood/superset/add-db-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
       && chown superset:superset /app/superset/db_engine_specs/ascend.py
 
