@@ -46,8 +46,8 @@ jobs:
       - name: Commit latest upstream revision
         if: | 
           steps.git-check.outputs.modified == 'true' || 
-          ( github.event_name = 'push' ) ||
-          ( github.event_name = 'workflow_dispatch' && github.event.inputs.force_deploy != 'false' )
+          ( github.event_name == 'push' ) ||
+          ( github.event_name == 'workflow_dispatch' && github.event.inputs.force_deploy != 'false' )
         run: |
           git config --global user.name '${{ github.actor }}'
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
@@ -58,8 +58,8 @@ jobs:
     needs: check-upstream
     if: | 
       steps.git-check.outputs.modified == 'true' || 
-      ( github.event_name = 'push' ) ||
-      ( github.event_name = 'workflow_dispatch' && github.event.inputs.force_deploy != 'false' )
+      ( github.event_name == 'push' ) ||
+      ( github.event_name == 'workflow_dispatch' && github.event.inputs.force_deploy != 'false' )
     strategy:
       matrix:
         DOCKER_IMAGE: [superset-oauth] # Array: [superset,superset-oauth]
