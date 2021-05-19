@@ -21,10 +21,13 @@ RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
       && rm -rf /var/lib/apt/lists/* \
       && pip install --no-cache \
            Authlib \
-           fbprophet 'pystan<3.0.0' tqdm lunarcalendar \
            'git+https://github.com/cloudera/impyla.git@ba0413426d3d7a0f53125465391782eefc62fa1a' \
            mysqlclient \
            snowflake-sqlalchemy \
+      && pip install --no-cache \
+           'pystan<3.0.0' tqdm lunarcalendar \
+      && pip install --no-cache \
+           fbprophet \
       && curl https://raw.githubusercontent.com/danielewood/superset/add-db-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
       && chown superset:superset /app/superset/db_engine_specs/ascend.py
 
