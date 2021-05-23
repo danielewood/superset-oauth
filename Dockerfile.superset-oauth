@@ -10,26 +10,33 @@ ENV LANG=C.UTF-8 \
 
 USER root
 
+# Upstream base and updates
 RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
-      && apt-get update -y \
-      && apt-get install -y --no-install-recommends \
-           build-essential \
-           default-libmysqlclient-dev \
-           libsasl2-modules-gssapi-mit \
-           libpq-dev \
-           nano \
-      && rm -rf /var/lib/apt/lists/* \
-      && pip install --no-cache \
-           Authlib \
-           'git+https://github.com/cloudera/impyla.git@ba0413426d3d7a0f53125465391782eefc62fa1a' \
-           mysqlclient \
-           snowflake-sqlalchemy \
-      && pip install --no-cache \
-           'pystan<3.0.0' tqdm lunarcalendar \
-      && pip install --no-cache \
-           fbprophet \
-      && curl https://raw.githubusercontent.com/danielewood/superset/add-db-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
-      && chown superset:superset /app/superset/db_engine_specs/ascend.py
+    && apt-get update -y \
+    && apt-get install -y --no-install-recommends \
+         build-essential \
+         default-libmysqlclient-dev \
+         libsasl2-modules-gssapi-mit \
+         libpq-dev \
+         nano \
+    && rm -rf /var/lib/apt/lists/*
+
+# Authlib for Oauth2; impyla, mysql, snowflake, and ascend for database connectors
+RUN pip install --no-cache \
+      Authlib \
+      'impyla>=0.17a8' \
+      mysqlclient \
+      snowflake-sqlalchemy \
+    && curl https://raw.githubusercontent.com/danielewood/superset/add-db-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
+    && chown superset:superset /app/superset/db_engine_specs/ascend.py
+
+# fbprophet for forcasting
+RUN pip install --no-cache \
+      'pystan<3.0.0' \
+      tqdm \
+      lunarcalendar \
+    && pip install --no-cache \
+         fbprophet
 
 WORKDIR /app
 
