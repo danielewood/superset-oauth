@@ -24,7 +24,7 @@ RUN mkdir -p ${SUPERSET_HOME} ${PYTHONPATH} \
 # Authlib for Oauth2; impyla, mysql, snowflake, and ascend for database connectors
 RUN pip install --no-cache \
       Authlib \
-      'impyla>=0.17a8' \
+      'impyla>=0.17.0' \
       mysqlclient \
       snowflake-sqlalchemy \
     && curl https://raw.githubusercontent.com/danielewood/superset/add-db-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
