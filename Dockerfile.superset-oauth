@@ -28,7 +28,9 @@ RUN pip install --no-cache \
       mysqlclient \
       snowflake-sqlalchemy \
     && curl https://raw.githubusercontent.com/danielewood/superset/add-db-ascend/superset/db_engine_specs/ascend.py > /app/superset/db_engine_specs/ascend.py \
-    && chown superset:superset /app/superset/db_engine_specs/ascend.py
+    && chown superset:superset /app/superset/db_engine_specs/ascend.py \
+    && curl 'https://raw.githubusercontent.com/danielewood/superset/fix-gunicorn-timeout-adjustable/docker/docker-entrypoint.sh' > /usr/bin/docker-entrypoint.sh \
+    && chmod 755 /usr/bin/docker-entrypoint.sh
 
 # fbprophet for forcasting
 RUN pip install --no-cache \
