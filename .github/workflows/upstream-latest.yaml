@@ -32,7 +32,7 @@ jobs:
           # Extract latest tag of 1.x.x (exclude release candidates)
           tagName=$(jq -r '[ .[] | select( .tag_name | test("^1\\.[0-9]+\\.[0-9]+$") ) ] | max_by( .tag_name | split(".") | map(tonumber) ) | .tag_name' /tmp/releases_temp.json)
           # Store superset-latest.json
-          jq --arg tagName "$tagName" -r ".[] | select( .tag_name == \"$tagName\" )" /tmp/releases_temp.json > superset-latest.json
+          jq --arg tagName "$tagName" -r ".[] | select( .tag_name == \"$tagName\" ) | del(.reactions)" /tmp/releases_temp.json > superset-latest.json
       - name: Check for modified files
         id: git-check
         run: echo ::set-output name=modified::$([ -z "`git status --porcelain`" ] && echo "unchanged" || echo "true")
