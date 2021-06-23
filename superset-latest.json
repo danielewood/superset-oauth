@@ -35,17 +35,5 @@
   "assets": [],
   "tarball_url": "https://api.github.com/repos/apache/superset/tarball/1.1.0",
   "zipball_url": "https://api.github.com/repos/apache/superset/zipball/1.1.0",
-  "body": "Hello Community,\r\n\r\nThe Apache Superset team is pleased to announce that Superset\r\n1.1.0 has just been released.\r\n\r\nApache Superset is a modern, enterprise-ready business intelligence web application\r\n\r\nThe official source release:\r\n\r\nhttps://www.apache.org/dist/superset/1.1.0\r\n\r\nThe Pypi package:\r\n\r\nhttps://pypi.org/project/apache-superset/\r\n\r\nIf you have any usage questions, or have problems when upgrading or\r\nfind any problems about enhancements included in this release, please\r\ndon't hesitate to let us know by sending feedback to this mailing\r\nlist.",
-  "reactions": {
-    "url": "https://api.github.com/repos/apache/superset/releases/41376362/reactions",
-    "total_count": 1,
-    "+1": 1,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 0,
-    "confused": 0,
-    "heart": 0,
-    "rocket": 0,
-    "eyes": 0
-  }
+  "body": "Hello Community,\r\n\r\nThe Apache Superset team is pleased to announce that Superset\r\n1.1.0 has just been released.\r\n\r\nApache Superset is a modern, enterprise-ready business intelligence web application\r\n\r\nThe official source release:\r\n\r\nhttps://www.apache.org/dist/superset/1.1.0\r\n\r\nThe Pypi package:\r\n\r\nhttps://pypi.org/project/apache-superset/\r\n\r\nIf you have any usage questions, or have problems when upgrading or\r\nfind any problems about enhancements included in this release, please\r\ndon't hesitate to let us know by sending feedback to this mailing\r\nlist."
 }
