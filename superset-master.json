@@ -1,38 +1,38 @@
 {
-  "id": 962281445,
+  "id": 962672841,
   "name": "Docker",
-  "node_id": "WFR_lAHNuP_OAlosUs45Wz_l",
+  "node_id": "WFR_lAHNuP_OAlosUs45YTjJ",
   "head_branch": "master",
-  "head_sha": "c211f7df8e5d3ebe0d0424016354f27aef5882aa",
-  "run_number": 9830,
-  "event": "push",
+  "head_sha": "f7062dfcdd2011d791d2f6c85cefdec44b21b086",
+  "run_number": 9841,
+  "event": "pull_request",
   "status": "completed",
-  "conclusion": "success",
+  "conclusion": "action_required",
   "workflow_id": 3465823,
-  "check_suite_id": 3060858873,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzMDYwODU4ODcz",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/962281445",
-  "created_at": "2021-06-22T22:07:15Z",
-  "updated_at": "2021-06-22T22:19:48Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/962281445/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/962281445/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3060858873",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/962281445/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/962281445/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/962281445/rerun",
+  "check_suite_id": 3061827209,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzMDYxODI3MjA5",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/962672841",
+  "created_at": "2021-06-23T01:08:45Z",
+  "updated_at": "2021-06-23T01:08:45Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/962672841/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/962672841/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3061827209",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/962672841/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/962672841/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/962672841/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "c211f7df8e5d3ebe0d0424016354f27aef5882aa",
-    "tree_id": "0d0ead507f32eaa9492cb98d3b9704bd4135919d",
-    "message": "refactor: icon to icons in DatasourceEditor (#15240)\n\n* intial commit\r\n\r\n* lint\r\n\r\n* fix test\r\n\r\n* fix lint\r\n\r\n* remove console.\r\n\r\n* Removing pixel placement override.\r\n\r\nCo-authored-by: Evan Rusackas <evan@preset.io>",
-    "timestamp": "2021-06-22T22:07:09Z",
+    "id": "f7062dfcdd2011d791d2f6c85cefdec44b21b086",
+    "tree_id": "8e9507a7cfffea8586abe51dcf127ee7607d47d9",
+    "message": "Switch to correct scheme registry for custom sequential color schemes",
+    "timestamp": "2021-06-23T00:49:43Z",
     "author": {
-      "name": "Phillip Kelley-Dotson",
-      "email": "pkelleydotson@yahoo.com"
+      "name": "Gryazzz",
+      "email": "gryazzz@gmail.com"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "Gryazzz",
+      "email": "gryazzz@gmail.com"
     }
   }
 }
