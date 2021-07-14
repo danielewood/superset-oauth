@@ -1,38 +1,38 @@
 {
-  "id": 1029806314,
+  "id": 1030520975,
   "name": "Docker",
-  "node_id": "WFR_lAHNuP_OAlosUs49YZjq",
+  "node_id": "WFR_lAHNuP_OAlosUs49bICP",
   "head_branch": "master",
-  "head_sha": "79a77410401c9f5a53e548d27fe19f02a659bb78",
-  "run_number": 10707,
-  "event": "pull_request",
+  "head_sha": "a1793f304e2638fe3b74fb34ec8c43d95a671202",
+  "run_number": 10713,
+  "event": "push",
   "status": "completed",
-  "conclusion": "action_required",
+  "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3235467636,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzMjM1NDY3NjM2",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1029806314",
-  "created_at": "2021-07-14T09:55:45Z",
-  "updated_at": "2021-07-14T09:55:45Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1029806314/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1029806314/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3235467636",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1029806314/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1029806314/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1029806314/rerun",
+  "check_suite_id": 3237525704,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzMjM3NTI1NzA0",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1030520975",
+  "created_at": "2021-07-14T14:06:23Z",
+  "updated_at": "2021-07-14T14:23:40Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1030520975/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1030520975/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3237525704",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1030520975/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1030520975/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1030520975/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "79a77410401c9f5a53e548d27fe19f02a659bb78",
-    "tree_id": "33ebfb7439c0419101aa2702a1daf43cc9c7122b",
-    "message": "add(helm): add extraManifest to helm\n\nTo be able start custom services. For example TargetGroupBinding, for targeting AWS Load Balancer.",
-    "timestamp": "2021-07-14T09:53:47Z",
+    "id": "a1793f304e2638fe3b74fb34ec8c43d95a671202",
+    "tree_id": "5837346c2e42fe8d0d782e6d02e94497d20953ec",
+    "message": "fix(dashboard): Filters panel height (#15661)\n\n* Fix container height\r\n\r\n* Add min height vh\r\n\r\n* Remove offset when standalone\r\n\r\n* Clean up",
+    "timestamp": "2021-07-14T14:06:17Z",
     "author": {
-      "name": "Andrej Baran",
-      "email": "barana@cisco.com"
+      "name": "Geido",
+      "email": "60598000+geido@users.noreply.github.com"
     },
     "committer": {
-      "name": "Andrej Baran",
-      "email": "barana@cisco.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
