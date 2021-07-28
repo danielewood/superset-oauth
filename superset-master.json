@@ -1,38 +1,38 @@
 {
-  "id": 1075700050,
+  "id": 1075878318,
   "name": "Docker",
-  "node_id": "WFR_lAHNuP_OAlosUs5AHeFS",
+  "node_id": "WFR_lAHNuP_OAlosUs5AIJmu",
   "head_branch": "master",
-  "head_sha": "671b8f25449346066d27588456fd99015bb31e4e",
-  "run_number": 11343,
-  "event": "push",
+  "head_sha": "0f34db87a429c7f53b2ab915a494185d081e431a",
+  "run_number": 11351,
+  "event": "pull_request",
   "status": "completed",
-  "conclusion": "failure",
+  "conclusion": "action_required",
   "workflow_id": 3465823,
-  "check_suite_id": 3353475564,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzMzUzNDc1NTY0",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1075700050",
-  "created_at": "2021-07-28T16:59:24Z",
-  "updated_at": "2021-07-28T17:16:26Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1075700050/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1075700050/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3353475564",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1075700050/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1075700050/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1075700050/rerun",
+  "check_suite_id": 3354000818,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzMzU0MDAwODE4",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1075878318",
+  "created_at": "2021-07-28T18:03:47Z",
+  "updated_at": "2021-07-28T18:03:47Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1075878318/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1075878318/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3354000818",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1075878318/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1075878318/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1075878318/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "671b8f25449346066d27588456fd99015bb31e4e",
-    "tree_id": "b30985304dffa7f471677cd072561d32c07e7bd7",
-    "message": "chore: Mypy fix **kwargs type (#15823)\n\nCo-authored-by: John Bodley <john.bodley@airbnb.com>",
-    "timestamp": "2021-07-28T16:59:20Z",
+    "id": "0f34db87a429c7f53b2ab915a494185d081e431a",
+    "tree_id": "7ad438116e7a1af0b0f8e1471545bf9908f445b9",
+    "message": "fixes to teradata driver and limit methods in teradata.py",
+    "timestamp": "2021-07-28T17:34:08Z",
     "author": {
-      "name": "John Bodley",
-      "email": "4567245+john-bodley@users.noreply.github.com"
+      "name": "Mccush, Jack",
+      "email": "jack.mccush@teradata.com"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "Mccush, Jack",
+      "email": "jack.mccush@teradata.com"
     }
   }
 }
