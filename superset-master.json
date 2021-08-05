@@ -1,38 +1,38 @@
 {
-  "id": 1099545075,
+  "id": 1100297595,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5Bibnz",
+  "node_id": "WFR_kwLOAlosUs5BlTV7",
   "head_branch": "master",
-  "head_sha": "4640d0d15fdf219d091fc6d84b5b4753991e2585",
-  "run_number": 11636,
-  "event": "pull_request",
+  "head_sha": "a59d458e415c7f66ed022928768040554ad9f356",
+  "run_number": 11639,
+  "event": "push",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3415254965,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNDE1MjU0OTY1",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1099545075",
-  "created_at": "2021-08-04T23:29:41Z",
-  "updated_at": "2021-08-04T23:58:10Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1099545075/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1099545075/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3415254965",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1099545075/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1099545075/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1099545075/rerun",
+  "check_suite_id": 3417165839,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNDE3MTY1ODM5",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1100297595",
+  "created_at": "2021-08-05T05:28:22Z",
+  "updated_at": "2021-08-05T05:43:45Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1100297595/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1100297595/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3417165839",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1100297595/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1100297595/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1100297595/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "4640d0d15fdf219d091fc6d84b5b4753991e2585",
-    "tree_id": "a5594c321e107988ca43c415587beec3ac27fc67",
-    "message": "fix: proper TypeError handling in memoize decorator",
-    "timestamp": "2021-08-04T23:29:27Z",
+    "id": "a59d458e415c7f66ed022928768040554ad9f356",
+    "tree_id": "40422975ef501bf637265c758143232b67c9e680",
+    "message": "chore(explore): Create new entrypoints for Echarts Timeseries (#15942)\n\n* feat(explore): Create new entrypoints for Echarts Timeseries\r\n\r\n* Change order of some charts\r\n\r\n* bump superset-ui\r\n\r\n* also bump echarts package\r\n\r\n* fix UT\r\n\r\nCo-authored-by: Ville Brofeldt <ville.v.brofeldt@gmail.com>",
+    "timestamp": "2021-08-05T05:28:16Z",
     "author": {
-      "name": "Victor Sadkov",
-      "email": "victor.sadkov@cloudkitchens.com"
+      "name": "Kamil Gabryjelski",
+      "email": "kamil.gabryjelski@gmail.com"
     },
     "committer": {
-      "name": "Victor Sadkov",
-      "email": "victor.sadkov@cloudkitchens.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
