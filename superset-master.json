@@ -1,38 +1,38 @@
 {
-  "id": 1106396685,
+  "id": 1106985868,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5B8kYN",
+  "node_id": "WFR_kwLOAlosUs5B-0OM",
   "head_branch": "master",
-  "head_sha": "318e057d7fdc2dae24a9269a29210aa04272edef",
-  "run_number": 11720,
-  "event": "pull_request",
+  "head_sha": "85ae8e3477552aebd1df37dd0d0ff6457a325d76",
+  "run_number": 11733,
+  "event": "push",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3434054960,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNDM0MDU0OTYw",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1106396685",
-  "created_at": "2021-08-06T20:56:26Z",
-  "updated_at": "2021-08-06T23:14:31Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1106396685/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1106396685/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3434054960",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1106396685/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1106396685/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1106396685/rerun",
+  "check_suite_id": 3435398072,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNDM1Mzk4MDcy",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1106985868",
+  "created_at": "2021-08-07T02:03:55Z",
+  "updated_at": "2021-08-07T02:16:39Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1106985868/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1106985868/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3435398072",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1106985868/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1106985868/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1106985868/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "318e057d7fdc2dae24a9269a29210aa04272edef",
-    "tree_id": "02135a2137c772f72a0e08fc727580b6270b298b",
-    "message": "fix: proper TypeError handling in memoize decorator",
-    "timestamp": "2021-08-06T20:56:11Z",
+    "id": "85ae8e3477552aebd1df37dd0d0ff6457a325d76",
+    "tree_id": "d0646317a704d60b6abaf946b30a85bfe22d57d0",
+    "message": "refactor: proper TypeError handling in memoize decorator (#16074)\n\nCo-authored-by: Victor Sadkov <victor.sadkov@cloudkitchens.com>",
+    "timestamp": "2021-08-07T02:03:52Z",
     "author": {
-      "name": "Victor Sadkov",
-      "email": "victor.sadkov@cloudkitchens.com"
+      "name": "Victor",
+      "email": "sadkov993@gmail.com"
     },
     "committer": {
-      "name": "Victor Sadkov",
-      "email": "victor.sadkov@cloudkitchens.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
