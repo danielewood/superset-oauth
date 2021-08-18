@@ -1,38 +1,38 @@
 {
-  "id": 1142742848,
+  "id": 1143749840,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5EHN9A",
+  "node_id": "WFR_kwLOAlosUs5ELDzQ",
   "head_branch": "master",
-  "head_sha": "2c595b09eabb28e22a8bb3866d1fc940c6373753",
-  "run_number": 12150,
-  "event": "push",
+  "head_sha": "8e93d0326031f54ab8cbe696e371714973a90f03",
+  "run_number": 12155,
+  "event": "pull_request",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3529625971,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNTI5NjI1OTcx",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1142742848",
-  "created_at": "2021-08-18T10:23:28Z",
-  "updated_at": "2021-08-18T10:43:18Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1142742848/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1142742848/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3529625971",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1142742848/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1142742848/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1142742848/rerun",
+  "check_suite_id": 3532630163,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNTMyNjMwMTYz",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1143749840",
+  "created_at": "2021-08-18T15:42:02Z",
+  "updated_at": "2021-08-18T16:30:55Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1143749840/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1143749840/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3532630163",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1143749840/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1143749840/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1143749840/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "2c595b09eabb28e22a8bb3866d1fc940c6373753",
-    "tree_id": "7195e22204428889f6f79b0bbbf35843d369a325",
-    "message": "chore(explore): make metric/column search input clearable (#16320)\n\n* chore(explore): make metric/column search input clearable\r\n\r\n* Fix typo\r\n\r\n* Fix test",
-    "timestamp": "2021-08-18T10:23:23Z",
+    "id": "8e93d0326031f54ab8cbe696e371714973a90f03",
+    "tree_id": "be0d29f99be36cc73bef9120da4c1b0fc8d2cd81",
+    "message": "fix: SQL Lab cancel query in Redshift database connection does not work #16325",
+    "timestamp": "2021-08-18T15:27:25Z",
     "author": {
-      "name": "Kamil Gabryjelski",
-      "email": "kamil.gabryjelski@gmail.com"
+      "name": "Venkata Krishnan Somasundaram",
+      "email": "venkata_cred@Venkatas-MacBook-Pro.local"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "Venkata Krishnan Somasundaram",
+      "email": "venkata_cred@Venkatas-MacBook-Pro.local"
     }
   }
 }
