@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Fetch upstream revision
         run: |
+          git fetch
           curl -sL 'https://api.github.com/repos/apache/superset/actions/workflows/docker.yml/runs?branch=master&conclusion=success&status=completed&per_page=1' | \
           jq '.workflow_runs | .[] | del(.pull_requests, .html_url, .repository, .head_repository)' > superset-master.json
       - name: Check for modified files
