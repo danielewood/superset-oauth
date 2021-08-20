@@ -1,38 +1,38 @@
 {
-  "id": 1150402174,
+  "id": 1151273856,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5Ekb5-",
+  "node_id": "WFR_kwLOAlosUs5EnwuA",
   "head_branch": "master",
-  "head_sha": "99411a516c6dc822d1ad81060353b20af219ce64",
-  "run_number": 12243,
+  "head_sha": "afd63bd1215848641a87c41bea7c62a5144c4fac",
+  "run_number": 12247,
   "event": "pull_request",
   "status": "completed",
   "conclusion": "action_required",
   "workflow_id": 3465823,
-  "check_suite_id": 3550895858,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNTUwODk1ODU4",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1150402174",
-  "created_at": "2021-08-20T10:48:41Z",
-  "updated_at": "2021-08-20T10:48:41Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1150402174/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1150402174/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3550895858",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1150402174/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1150402174/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1150402174/rerun",
+  "check_suite_id": 3553376160,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNTUzMzc2MTYw",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856",
+  "created_at": "2021-08-20T15:50:46Z",
+  "updated_at": "2021-08-20T15:50:46Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3553376160",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "99411a516c6dc822d1ad81060353b20af219ce64",
-    "tree_id": "eadf698e39895502b565893455406465a4484ecd",
-    "message": "fix: ensure setting operator to `None` (#16371)",
-    "timestamp": "2021-08-20T10:40:00Z",
+    "id": "afd63bd1215848641a87c41bea7c62a5144c4fac",
+    "tree_id": "f1488865ebc4ea546975bb89c731f15381ba7e50",
+    "message": "add function list to auto-complete to Clickhouse datasource, fix https://github.com/apache/superset/issues/15477\nfix review comments https://github.com/apache/superset/pull/16234#discussion_r688362980\n\nSigned-off-by: Slach <bloodjazman@gmail.com>",
+    "timestamp": "2021-08-20T15:50:22Z",
     "author": {
-      "name": "grumpy-miner",
-      "email": "81763239+grumpy-miner@users.noreply.github.com"
+      "name": "Slach",
+      "email": "bloodjazman@gmail.com"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "Slach",
+      "email": "bloodjazman@gmail.com"
     }
   }
 }
