@@ -1,38 +1,38 @@
 {
-  "id": 1151273856,
+  "id": 1151475245,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5EnwuA",
+  "node_id": "WFR_kwLOAlosUs5Eoh4t",
   "head_branch": "master",
-  "head_sha": "afd63bd1215848641a87c41bea7c62a5144c4fac",
-  "run_number": 12247,
-  "event": "pull_request",
+  "head_sha": "518c3c9ae088f780f1874c63eab416ee1cbb4a61",
+  "run_number": 12259,
+  "event": "push",
   "status": "completed",
-  "conclusion": "action_required",
+  "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3553376160,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNTUzMzc2MTYw",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856",
-  "created_at": "2021-08-20T15:50:46Z",
-  "updated_at": "2021-08-20T15:50:46Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3553376160",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1151273856/rerun",
+  "check_suite_id": 3553973908,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNTUzOTczOTA4",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1151475245",
+  "created_at": "2021-08-20T17:08:41Z",
+  "updated_at": "2021-08-20T17:26:16Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1151475245/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1151475245/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3553973908",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1151475245/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1151475245/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1151475245/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "afd63bd1215848641a87c41bea7c62a5144c4fac",
-    "tree_id": "f1488865ebc4ea546975bb89c731f15381ba7e50",
-    "message": "add function list to auto-complete to Clickhouse datasource, fix https://github.com/apache/superset/issues/15477\nfix review comments https://github.com/apache/superset/pull/16234#discussion_r688362980\n\nSigned-off-by: Slach <bloodjazman@gmail.com>",
-    "timestamp": "2021-08-20T15:50:22Z",
+    "id": "518c3c9ae088f780f1874c63eab416ee1cbb4a61",
+    "tree_id": "23e7f1089a77493f0d60116b94d3d905e75749bb",
+    "message": "test: Functional RTL for email report modal II (#16148)\n\n* Email Report Modal validation testing\r\n\r\n* Starting RTL testing for email report\r\n\r\n* Calendar icon now rendering!\r\n\r\n* Create report testing in dashboard\r\n\r\n* make linter happy\r\n\r\n* Fixing weird error\r\n\r\n* Removed ExploreChartHeader_spec\r\n\r\n* Fixed dashboard header test\r\n\r\n* revert changes from merge\r\n\r\n* Fix tests\r\n\r\nCo-authored-by: Elizabeth Thompson <eschutho@gmail.com>",
+    "timestamp": "2021-08-20T17:08:36Z",
     "author": {
-      "name": "Slach",
-      "email": "bloodjazman@gmail.com"
+      "name": "Lyndsi Kay Williams",
+      "email": "55605634+lyndsiWilliams@users.noreply.github.com"
     },
     "committer": {
-      "name": "Slach",
-      "email": "bloodjazman@gmail.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
