@@ -1,38 +1,38 @@
 {
-  "id": 1148938861,
+  "id": 1150050815,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5Ee2pt",
+  "node_id": "WFR_kwLOAlosUs5EjGH_",
   "head_branch": "master",
-  "head_sha": "a2ae7d1347bb90fe331ec577df49db901420bb25",
-  "run_number": 12236,
-  "event": "pull_request",
+  "head_sha": "575ee24a99011bf5b4106d3f3cc57afb2a968cb5",
+  "run_number": 12242,
+  "event": "push",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3547290502,
-  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNTQ3MjkwNTAy",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1148938861",
-  "created_at": "2021-08-20T00:13:45Z",
-  "updated_at": "2021-08-20T00:33:48Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1148938861/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1148938861/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3547290502",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1148938861/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1148938861/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1148938861/rerun",
+  "check_suite_id": 3549951002,
+  "check_suite_node_id": "MDEwOkNoZWNrU3VpdGUzNTQ5OTUxMDAy",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1150050815",
+  "created_at": "2021-08-20T08:44:04Z",
+  "updated_at": "2021-08-20T08:58:14Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1150050815/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1150050815/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3549951002",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1150050815/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1150050815/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1150050815/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "a2ae7d1347bb90fe331ec577df49db901420bb25",
-    "tree_id": "3eb55aafe99c1f75247db8743bc15ebc5cc77207",
-    "message": "Configurable Celery Flask Metadata passover",
-    "timestamp": "2021-08-20T00:13:31Z",
+    "id": "575ee24a99011bf5b4106d3f3cc57afb2a968cb5",
+    "tree_id": "d4b202dd9c22ae2be868c0f7dde5b7d95a3f7aad",
+    "message": "fix: call external metadata endpoint with correct rison object (#16369)",
+    "timestamp": "2021-08-20T08:43:57Z",
     "author": {
-      "name": "Victor Sadkov",
-      "email": "victor.sadkov@cloudkitchens.com"
+      "name": "Ville Brofeldt",
+      "email": "33317356+villebro@users.noreply.github.com"
     },
     "committer": {
-      "name": "Victor Sadkov",
-      "email": "victor.sadkov@cloudkitchens.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
