@@ -1,38 +1,38 @@
 {
-  "id": 1189270020,
+  "id": 1190977660,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5G4tIE",
+  "node_id": "WFR_kwLOAlosUs5G_OB8",
   "head_branch": "master",
-  "head_sha": "ac70928d55a25e34d5f450bd4e40ce1fe2f5bece",
-  "run_number": 12647,
-  "event": "pull_request",
+  "head_sha": "e947f8a4c8f3fbca9f278ede4b96259a2939d35b",
+  "run_number": 12659,
+  "event": "push",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3650483114,
-  "check_suite_node_id": "CS_kwDOAlosUs7ZlfOq",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020",
-  "created_at": "2021-09-01T07:44:36Z",
-  "updated_at": "2021-09-01T08:02:31Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3650483114",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/rerun",
+  "check_suite_id": 3655504740,
+  "check_suite_node_id": "CS_kwDOAlosUs7Z4pNk",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1190977660",
+  "created_at": "2021-09-01T16:24:50Z",
+  "updated_at": "2021-09-01T16:43:22Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1190977660/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1190977660/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3655504740",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1190977660/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1190977660/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1190977660/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "ac70928d55a25e34d5f450bd4e40ce1fe2f5bece",
-    "tree_id": "b4dbad905332abbb03de68828c04aa2efff6ecff",
-    "message": "fix: Dashboards and Charts drop a red 'Unexpected error' message when user is anonymous (#16507)",
-    "timestamp": "2021-09-01T07:42:47Z",
+    "id": "e947f8a4c8f3fbca9f278ede4b96259a2939d35b",
+    "tree_id": "210c7ae70ee950d2ff0bd9372b0d09780cfbe47c",
+    "message": "refactor sql_json view endpoint: extract to method reuse code (#16546)",
+    "timestamp": "2021-09-01T16:24:33Z",
     "author": {
-      "name": "drikc",
-      "email": "cgampert@gmail.com"
+      "name": "ofekisr",
+      "email": "35701650+ofekisr@users.noreply.github.com"
     },
     "committer": {
-      "name": "drikc",
-      "email": "cgampert@gmail.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
