@@ -1,38 +1,38 @@
 {
-  "id": 1188971114,
+  "id": 1189270020,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5G3kJq",
+  "node_id": "WFR_kwLOAlosUs5G4tIE",
   "head_branch": "master",
-  "head_sha": "80c39daa85c9be9e66a2e3cf2c9e2a8e5a74a8d6",
-  "run_number": 12645,
-  "event": "push",
+  "head_sha": "ac70928d55a25e34d5f450bd4e40ce1fe2f5bece",
+  "run_number": 12647,
+  "event": "pull_request",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3649659337,
-  "check_suite_node_id": "CS_kwDOAlosUs7ZiWHJ",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1188971114",
-  "created_at": "2021-09-01T05:52:15Z",
-  "updated_at": "2021-09-01T06:06:55Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1188971114/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1188971114/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3649659337",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1188971114/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1188971114/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1188971114/rerun",
+  "check_suite_id": 3650483114,
+  "check_suite_node_id": "CS_kwDOAlosUs7ZlfOq",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020",
+  "created_at": "2021-09-01T07:44:36Z",
+  "updated_at": "2021-09-01T08:02:31Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3650483114",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1189270020/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "80c39daa85c9be9e66a2e3cf2c9e2a8e5a74a8d6",
-    "tree_id": "271a1d746586671bba123259bbecadfe655e98a3",
-    "message": "fix: can't drop column when name overlap (#16482)",
-    "timestamp": "2021-09-01T05:52:10Z",
+    "id": "ac70928d55a25e34d5f450bd4e40ce1fe2f5bece",
+    "tree_id": "b4dbad905332abbb03de68828c04aa2efff6ecff",
+    "message": "fix: Dashboards and Charts drop a red 'Unexpected error' message when user is anonymous (#16507)",
+    "timestamp": "2021-09-01T07:42:47Z",
     "author": {
-      "name": "Yongjie Zhao",
-      "email": "yongjie.zhao@gmail.com"
+      "name": "drikc",
+      "email": "cgampert@gmail.com"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "drikc",
+      "email": "cgampert@gmail.com"
     }
   }
 }
