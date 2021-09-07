@@ -1,38 +1,38 @@
 {
-  "id": 1208614978,
+  "id": 1208977525,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs5ICgBC",
+  "node_id": "WFR_kwLOAlosUs5ID4h1",
   "head_branch": "master",
-  "head_sha": "f7d332f654fb3a0c1b4f26d204f6a80bdd22ef9a",
-  "run_number": 12761,
-  "event": "pull_request",
+  "head_sha": "effcf3b50f347f1c3c3ddc82406046c392205ebd",
+  "run_number": 12766,
+  "event": "push",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 3699729601,
-  "check_suite_node_id": "CS_kwDOAlosUs7chWTB",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/1208614978",
-  "created_at": "2021-09-07T08:09:08Z",
-  "updated_at": "2021-09-07T08:28:11Z",
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1208614978/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1208614978/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3699729601",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1208614978/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1208614978/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1208614978/rerun",
+  "check_suite_id": 3700736854,
+  "check_suite_node_id": "CS_kwDOAlosUs7clMNW",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/1208977525",
+  "created_at": "2021-09-07T10:03:46Z",
+  "updated_at": "2021-09-07T10:20:45Z",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1208977525/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1208977525/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3700736854",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/1208977525/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/1208977525/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/1208977525/rerun",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "f7d332f654fb3a0c1b4f26d204f6a80bdd22ef9a",
-    "tree_id": "b4dbad905332abbb03de68828c04aa2efff6ecff",
-    "message": "fix: prevent `Unexpected error` when visitors browse Dashboards + Charts lists (#16507)",
-    "timestamp": "2021-09-07T08:08:33Z",
+    "id": "effcf3b50f347f1c3c3ddc82406046c392205ebd",
+    "tree_id": "7740b956e2f068e59652d7a339df3210943dd5ad",
+    "message": "perf(dashboard): decrease number of rerenders of FiltersBadge (#16545)\n\n* perf(dashboard): decrease rerenders in FiltersBadge\r\n\r\n* implement caching of dashboard filter indicators\r\n\r\n* Implement caching for native filter indicators",
+    "timestamp": "2021-09-07T10:03:43Z",
     "author": {
-      "name": "drikc",
-      "email": "cgampert@gmail.com"
+      "name": "Kamil Gabryjelski",
+      "email": "kamil.gabryjelski@gmail.com"
     },
     "committer": {
-      "name": "drikc",
-      "email": "cgampert@gmail.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
