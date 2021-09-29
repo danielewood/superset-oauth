@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/apache/superset/releases/48650918",
-  "assets_url": "https://api.github.com/repos/apache/superset/releases/48650918/assets",
-  "upload_url": "https://uploads.github.com/repos/apache/superset/releases/48650918/assets{?name,label}",
-  "html_url": "https://github.com/apache/superset/releases/tag/1.3.0",
-  "id": 48650918,
+  "url": "https://api.github.com/repos/apache/superset/releases/50412448",
+  "assets_url": "https://api.github.com/repos/apache/superset/releases/50412448/assets",
+  "upload_url": "https://uploads.github.com/repos/apache/superset/releases/50412448/assets{?name,label}",
+  "html_url": "https://github.com/apache/superset/releases/tag/1.3.1",
+  "id": 50412448,
   "author": {
     "login": "villebro",
     "id": 33317356,
@@ -24,16 +24,18 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "MDc6UmVsZWFzZTQ4NjUwOTE4",
-  "tag_name": "1.3.0",
+  "node_id": "RE_kwDOAlosUs4DATug",
+  "tag_name": "1.3.1",
   "target_commitish": "master",
-  "name": "1.3.0",
+  "name": "1.3.1",
   "draft": false,
   "prerelease": false,
-  "created_at": "2021-08-16T06:36:28Z",
-  "published_at": "2021-08-30T06:08:45Z",
+  "created_at": "2021-09-22T11:35:38Z",
+  "published_at": "2021-09-28T16:46:33Z",
   "assets": [],
-  "tarball_url": "https://api.github.com/repos/apache/superset/tarball/1.3.0",
-  "zipball_url": "https://api.github.com/repos/apache/superset/zipball/1.3.0",
-  "body": "Hello Community,\r\n\r\nThe Apache Superset team is pleased to announce that Superset1.3.0 has just been released.\r\n\r\nApache Superset is a modern, enterprise-ready business intelligence web application. \r\n\r\nSuperset 1.3 focuses on hardening and polishing the superset user experience, with tons of UX improvements and bug fixes focused on charts, dashboards, and the new dashboard-native filters.\r\n\r\nOne major goal of this release is to improve and harden dashboard-native filters. These filters live at the dashboard level instead of within a chart and affect all charts under their scope within a dashboard. Improvements in this release include clearer visual indicators of what charts are within the scope of a selected filter.\r\n\r\n- The official source release: https://www.apache.org/dist/superset/1.3.0\r\n- The PyPI package: https://pypi.org/project/apache-superset/1.3.0/\r\n- Release notes: https://github.com/apache/superset/tree/master/RELEASING/release-notes-1-3\r\n\r\nIf you have any usage questions, or have problems when upgrading or\r\nfind any problems about enhancements included in this release, please\r\ndon't hesitate to let us know by sending feedback to this mailing\r\nlist.\r\n\r\n---------------------------------------------------------------------\r\nTo unsubscribe, e-mail: general-unsubscribe@apache.org\r\nFor additional commands, e-mail: general-help@apache.org"
+  "tarball_url": "https://api.github.com/repos/apache/superset/tarball/1.3.1",
+  "zipball_url": "https://api.github.com/repos/apache/superset/zipball/1.3.1",
+  "body": "Hello Superset Community,\r\n\r\nThis is a call for the vote to release Apache Superset version 1.3.1. New cherries since 1.3.1rc1:\r\n\r\n- [#16711] feat(jinja): improve url parameter formatting (@villebro)\r\n- [#14955] feat: show build number value in the About if present in the config (@cccs-joel)\r\n- [#16776] fix(dataset): retain is_dttm if set on metadata sync (@villebro)\r\n- [#16716] fix(pandas-postprocessing): percentage compare to use correct column (@villebro)\r\n- [#16692] fix: catch exception when create connection (@zhaoyongjie)\r\n- [#16699] fix(explore): only refresh data panel on relevant changes (@villebro)\r\n- [#16687] fix: don't send invalid URLs back to the user (@dpgaspar)\r\n- [#16662] fix: fix assignment in FilterBoxViz (@tianhe1986)\r\n- [#16634] fix(sqla): support for date adhoc filter (@villebro)\r\n- [#16536] fix: params in sql lab are jumpy in the ace editor (@eschutho)\r\n- [#16614] fix: TemporalWrapperType string representation (@villebro)\r\n- [#16452] fix: queryEditor bug (@AAfghahi)\r\n- [#16374] fix: update table ID in query context on chart import (@betodealmeida)\r\n- [#16289] fix: improve pivot post-processing (@betodealmeida)\r\n- [#16262] fix: pivot col names in post_process (@betodealmeida)\r\n- [#16702] perf(dashboard): native filter select will be stuck if there has a filter box. (@stephenLYZ)\r\n- [#16648] chore: Bump Flask-OpenID to 1.3.0 (@dpgaspar)\r\n\r\nThe release candidate:\r\nhttps://dist.apache.org/repos/dist/dev/superset/1.3.1rc2/\r\n\r\nGit tag for the release:\r\nhttps://github.com/apache/superset/tree/1.3.1rc2\r\n\r\nThe Change Log for the release:\r\nhttps://github.com/apache/superset/blob/1.3.1rc2/CHANGELOG.md\r\n\r\nThe Updating instructions for the release:\r\nhttps://github.com/apache/superset/blob/1.3.1rc2/UPDATING.md\r\n\r\npublic keys are available at:\r\n\r\nhttps://www.apache.org/dist/superset/KEYS\r\n\r\nThe vote will be open for at least 72 hours or until the necessary number\r\nof votes are reached.\r\n\r\nPlease vote accordingly:\r\n\r\n[ ] +1 approve\r\n[ ] +0 no opinion\r\n[ ] -1 disapprove with the reason\r\n\r\nThanks,\r\nThe Apache Superset Team",
+  "discussion_url": "https://github.com/apache/superset/discussions/16873",
+  "mentions_count": 9
 }
