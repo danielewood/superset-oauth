@@ -15,6 +15,7 @@
   "created_at": "2021-10-04T16:47:10Z",
   "updated_at": "2021-10-04T17:04:25Z",
   "run_attempt": 1,
+  "run_started_at": "2021-10-04T16:47:10Z",
   "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/1304489192/jobs",
   "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/1304489192/logs",
   "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/3952839940",
