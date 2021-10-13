@@ -31,13 +31,13 @@ RUN pip install --no-cache \
 RUN pip install --no-cache \
       'snowflake-sqlalchemy==1.2.4'
 
-# fbprophet for forcasting
+# prophet for forcasting
 RUN pip install --no-cache \
       'pystan<3.0.0' \
       tqdm \
       lunarcalendar \
     && pip install --no-cache \
-         fbprophet
+         prophet
 
 WORKDIR /app
 
