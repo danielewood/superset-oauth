@@ -1,19 +1,19 @@
 {
-  "id": 2032251472,
+  "id": 2032763465,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs55IbJQ",
+  "node_id": "WFR_kwLOAlosUs55KYJJ",
   "head_branch": "master",
-  "head_sha": "d1e16c46841908ca8a9fcbb30eb97f9fee3561a2",
-  "run_number": 18952,
-  "event": "pull_request",
+  "head_sha": "202e34a259eda2619fc08b653df866c0f13c3e58",
+  "run_number": 18953,
+  "event": "push",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 5779507302,
-  "check_suite_node_id": "CS_kwDOAlosUs8AAAABWHxIZg",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/2032251472",
-  "created_at": "2022-03-24T04:28:46Z",
-  "updated_at": "2022-03-24T04:55:53Z",
+  "check_suite_id": 5780650530,
+  "check_suite_node_id": "CS_kwDOAlosUs8AAAABWI26Ig",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/2032763465",
+  "created_at": "2022-03-24T07:08:13Z",
+  "updated_at": "2022-03-24T07:40:20Z",
   "actor": {
     "login": "zhaoyongjie",
     "id": 2016594,
@@ -35,7 +35,7 @@
     "site_admin": false
   },
   "run_attempt": 1,
-  "run_started_at": "2022-03-24T04:28:46Z",
+  "run_started_at": "2022-03-24T07:08:13Z",
   "triggering_actor": {
     "login": "zhaoyongjie",
     "id": 2016594,
@@ -56,26 +56,26 @@
     "type": "User",
     "site_admin": false
   },
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/2032251472/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/2032251472/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/5779507302",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/2032251472/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/2032251472/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/2032251472/rerun",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/2032763465/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/2032763465/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/5780650530",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/2032763465/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/2032763465/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/2032763465/rerun",
   "previous_attempt_url": null,
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "d1e16c46841908ca8a9fcbb30eb97f9fee3561a2",
-    "tree_id": "708f8c349a78bdb839074a7a3b9dbf59c2f3b8c8",
-    "message": "one last round of linter tweaks in test_connection.py for duckdb support",
-    "timestamp": "2022-03-23T15:20:13Z",
+    "id": "202e34a259eda2619fc08b653df866c0f13c3e58",
+    "tree_id": "a0ed1bda3be5fab0c3a28834b2b98e66da012a5c",
+    "message": "feat: add duckdb as DataSource - Fixes #14563 (#19317)\n\n* + duckdb support\r\n\r\nneeds the forked version of [duckdb-engine](https://github.com/alitrack/duckdb_engine)\r\n\r\n* Update duckdb.py\r\n\r\nupdate  _time_grain_expressions\r\n\r\n* removed superfluous get_all_datasource_names def in duckdb engine spec\r\n\r\n* added exception handling for duckdb single-threaded RuntimeError\r\n\r\n* fixed linter blips and other stylistic cleanup in duckdb.py\r\n\r\n* one last round of linter tweaks in test_connection.py for duckdb support\r\n\r\nCo-authored-by: Steven Lee <admin@alitrack.com>\r\nCo-authored-by: Richard Whaling <richardwhaling@Richards-MacBook-Pro.local>",
+    "timestamp": "2022-03-24T07:07:57Z",
     "author": {
       "name": "Richard Whaling",
-      "email": "richardwhaling@Richards-MacBook-Pro.local"
+      "email": "rwhaling@gmail.com"
     },
     "committer": {
-      "name": "Richard Whaling",
-      "email": "richardwhaling@Richards-MacBook-Pro.local"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
