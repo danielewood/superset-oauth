@@ -1,19 +1,19 @@
 {
-  "id": 2050614425,
+  "id": 2050706444,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs56OeSZ",
+  "node_id": "WFR_kwLOAlosUs56O0wM",
   "head_branch": "master",
-  "head_sha": "b19d4e13e1802d88710326b51a8d9256543e1556",
-  "run_number": 19037,
+  "head_sha": "0185c85f052756f130a17b200a8d4553ac77f166",
+  "run_number": 19038,
   "event": "pull_request",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 5823461022,
-  "check_suite_node_id": "CS_kwDOAlosUs8AAAABWxr2ng",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/2050614425",
-  "created_at": "2022-03-28T06:44:11Z",
-  "updated_at": "2022-03-28T07:09:20Z",
+  "check_suite_id": 5823677552,
+  "check_suite_node_id": "CS_kwDOAlosUs8AAAABWx5EcA",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/2050706444",
+  "created_at": "2022-03-28T07:07:39Z",
+  "updated_at": "2022-03-28T07:30:03Z",
   "actor": {
     "login": "sujiplr",
     "id": 31705464,
@@ -35,7 +35,7 @@
     "site_admin": false
   },
   "run_attempt": 1,
-  "run_started_at": "2022-03-28T06:44:11Z",
+  "run_started_at": "2022-03-28T07:07:39Z",
   "triggering_actor": {
     "login": "sujiplr",
     "id": 31705464,
@@ -56,26 +56,26 @@
     "type": "User",
     "site_admin": false
   },
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/2050614425/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/2050614425/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/5823461022",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/2050614425/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/2050614425/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/2050614425/rerun",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/2050706444/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/2050706444/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/5823677552",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/2050706444/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/2050706444/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/2050706444/rerun",
   "previous_attempt_url": null,
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "b19d4e13e1802d88710326b51a8d9256543e1556",
-    "tree_id": "b081caf271ee3d00c9d6f154434953d702b32270",
-    "message": "Correcting with doc font size\n\nCorrecting with doc font size",
-    "timestamp": "2022-03-28T06:42:45Z",
+    "id": "0185c85f052756f130a17b200a8d4553ac77f166",
+    "tree_id": "b2973a5c2388d351e82b83fae279d3b181de391a",
+    "message": "Update docs/docs/installation/configuring-superset.mdx\n\nCo-authored-by: Ville Brofeldt <33317356+villebro@users.noreply.github.com>",
+    "timestamp": "2022-03-28T07:07:35Z",
     "author": {
-      "name": "sujiplr",
-      "email": "sujiplr@gmail.com"
+      "name": "Sujith Kumar S",
+      "email": "31705464+sujiplr@users.noreply.github.com"
     },
     "committer": {
-      "name": "sujiplr",
-      "email": "sujiplr@gmail.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
