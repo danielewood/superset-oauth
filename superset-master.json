@@ -4,6 +4,7 @@
   "node_id": "WFR_kwLOAlosUs6LnOGD",
   "head_branch": "master",
   "head_sha": "63702c48ab77ee73b7e304c92fc74ce02748107e",
+  "path": ".github/workflows/docker.yml",
   "run_number": 21101,
   "event": "push",
   "status": "completed",
@@ -35,6 +36,7 @@
     "site_admin": false
   },
   "run_attempt": 1,
+  "referenced_workflows": null,
   "run_started_at": "2022-05-18T00:58:58Z",
   "triggering_actor": {
     "login": "eschutho",
