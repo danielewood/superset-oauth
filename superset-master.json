@@ -1,20 +1,20 @@
 {
-  "id": 2987651749,
+  "id": 2987893966,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs6yE_Kl",
+  "node_id": "WFR_kwLOAlosUs6yF6TO",
   "head_branch": "master",
-  "head_sha": "d5f4543007285ab9a10c5584fe69d08690c8a80b",
+  "head_sha": "20c1666208a4ddc216817f3dc3758067fdf4340f",
   "path": ".github/workflows/docker.yml",
-  "run_number": 24758,
+  "run_number": 24759,
   "event": "pull_request",
   "status": "completed",
   "conclusion": "action_required",
   "workflow_id": 3465823,
-  "check_suite_id": 8125657479,
-  "check_suite_node_id": "CS_kwDOAlosUs8AAAAB5FOxhw",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/2987651749",
-  "created_at": "2022-09-04T09:54:48Z",
-  "updated_at": "2022-09-04T09:54:48Z",
+  "check_suite_id": 8126090096,
+  "check_suite_node_id": "CS_kwDOAlosUs8AAAAB5FpLcA",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/2987893966",
+  "created_at": "2022-09-04T11:21:32Z",
+  "updated_at": "2022-09-04T11:21:32Z",
   "actor": {
     "login": "xiayanzheng",
     "id": 14834951,
@@ -37,7 +37,7 @@
   },
   "run_attempt": 1,
   "referenced_workflows": [],
-  "run_started_at": "2022-09-04T09:54:48Z",
+  "run_started_at": "2022-09-04T11:21:32Z",
   "triggering_actor": {
     "login": "xiayanzheng",
     "id": 14834951,
@@ -58,26 +58,26 @@
     "type": "User",
     "site_admin": false
   },
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/2987651749/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/2987651749/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/8125657479",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/2987651749/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/2987651749/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/2987651749/rerun",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/2987893966/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/2987893966/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/8126090096",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/2987893966/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/2987893966/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/2987893966/rerun",
   "previous_attempt_url": null,
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "d5f4543007285ab9a10c5584fe69d08690c8a80b",
-    "tree_id": "023496b2b5fe8c9924aace20c72390270ccabe01",
-    "message": "Merge branch 'apache:master' into master",
-    "timestamp": "2022-09-04T09:54:29Z",
+    "id": "20c1666208a4ddc216817f3dc3758067fdf4340f",
+    "tree_id": "df24ec3271bdb6750b2b1d1d2a8a58e50094a1e6",
+    "message": "move snowflake keypair auth logic to snowflake.py and restore core.py and test_connection.py",
+    "timestamp": "2022-09-04T11:21:18Z",
     "author": {
-      "name": "LF",
-      "email": "xiayanzheng@outlook.com"
+      "name": "Tony",
+      "email": "txia@wiley.com"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "Tony",
+      "email": "txia@wiley.com"
     }
   }
 }
