@@ -5,6 +5,7 @@
   "head_branch": "master",
   "head_sha": "4fcc1d952f69ba35fed538a24d88f06317621ca6",
   "path": ".github/workflows/docker.yml",
+  "display_title": "chore: Extract common select component code (#21094)",
   "run_number": 25139,
   "event": "push",
   "status": "completed",
