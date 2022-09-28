@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/apache/superset/releases/68950904",
-  "assets_url": "https://api.github.com/repos/apache/superset/releases/68950904/assets",
-  "upload_url": "https://uploads.github.com/repos/apache/superset/releases/68950904/assets{?name,label}",
-  "html_url": "https://github.com/apache/superset/releases/tag/1.5.1",
-  "id": 68950904,
+  "url": "https://api.github.com/repos/apache/superset/releases/78294169",
+  "assets_url": "https://api.github.com/repos/apache/superset/releases/78294169/assets",
+  "upload_url": "https://uploads.github.com/repos/apache/superset/releases/78294169/assets{?name,label}",
+  "html_url": "https://github.com/apache/superset/releases/tag/1.5.2",
+  "id": 78294169,
   "author": {
     "login": "michael-s-molina",
     "id": 70410625,
@@ -24,17 +24,16 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAlosUs4EHBt4",
-  "tag_name": "1.5.1",
+  "node_id": "RE_kwDOAlosUs4EqqyZ",
+  "tag_name": "1.5.2",
   "target_commitish": "master",
-  "name": "1.5.1",
+  "name": "1.5.2",
   "draft": false,
   "prerelease": false,
-  "created_at": "2022-05-27T15:22:43Z",
-  "published_at": "2022-06-08T13:26:18Z",
+  "created_at": "2022-09-14T21:02:00Z",
+  "published_at": "2022-09-27T13:19:56Z",
   "assets": [],
-  "tarball_url": "https://api.github.com/repos/apache/superset/tarball/1.5.1",
-  "zipball_url": "https://api.github.com/repos/apache/superset/zipball/1.5.1",
-  "body": "Hello Community,\r\n\r\nThe Apache Superset team is pleased to announce that Superset\r\n1.5.1 has just been released.\r\n\r\nApache Superset is a modern, enterprise-ready business intelligence web application\r\n\r\nThe official source release:\r\n\r\nhttps://www.apache.org/dist/superset/1.5.1\r\n\r\nThe PyPI package:\r\n\r\nhttps://pypi.org/project/apache-superset/\r\n\r\nIf you have any usage questions or have problems when upgrading or\r\nfind any issues with enhancements included in this release, please\r\ndon't hesitate to let us know by sending feedback to this mailing\r\nlist.",
-  "discussion_url": "https://github.com/apache/superset/discussions/20310"
+  "tarball_url": "https://api.github.com/repos/apache/superset/tarball/1.5.2",
+  "zipball_url": "https://api.github.com/repos/apache/superset/zipball/1.5.2",
+  "body": "Hello Community,\r\n\r\nThe Apache Superset team is pleased to announce that Superset\r\n1.5.2 has just been released.\r\n\r\nApache Superset is a modern, enterprise-ready business intelligence web application.\r\n\r\nThe official source release:\r\n\r\nhttps://www.apache.org/dist/superset/1.5.2\r\n\r\nThe PyPI package:\r\n\r\nhttps://pypi.org/project/apache-superset/1.5.2/\r\n\r\nIf you have any usage questions, or have problems when upgrading or\r\nfind any problems about enhancements included in this release, please\r\ndon't hesitate to let us know by sending feedback to this mailing\r\nlist."
 }
