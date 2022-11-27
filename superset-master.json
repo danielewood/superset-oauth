@@ -15,7 +15,7 @@
   "check_suite_node_id": "CS_kwDOAlosUs8AAAACN0f9wA",
   "url": "https://api.github.com/repos/apache/superset/actions/runs/3554034943",
   "created_at": "2022-11-26T14:06:33Z",
-  "updated_at": "2022-11-26T14:20:40Z",
+  "updated_at": "2022-11-27T08:19:53Z",
   "actor": {
     "login": "zhaoyongjie",
     "id": 2016594,
@@ -36,9 +36,9 @@
     "type": "User",
     "site_admin": false
   },
-  "run_attempt": 1,
+  "run_attempt": 2,
   "referenced_workflows": [],
-  "run_started_at": "2022-11-26T14:06:33Z",
+  "run_started_at": "2022-11-27T08:08:58Z",
   "triggering_actor": {
     "login": "zhaoyongjie",
     "id": 2016594,
@@ -65,7 +65,7 @@
   "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/3554034943/artifacts",
   "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/3554034943/cancel",
   "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/3554034943/rerun",
-  "previous_attempt_url": null,
+  "previous_attempt_url": "https://api.github.com/repos/apache/superset/actions/runs/3554034943/attempts/1",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
     "id": "22fab5e58ce574e962518067d982e3036449e580",
