@@ -1,21 +1,21 @@
 {
-  "id": 3875602415,
+  "id": 3876729865,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs7nAP_v",
+  "node_id": "WFR_kwLOAlosUs7nEjQJ",
   "head_branch": "master",
-  "head_sha": "3ffdad107458db0020193d812270b015a5e4dd98",
+  "head_sha": "fb6f89a07fd9ef165d198df133c0122808e14899",
   "path": ".github/workflows/docker.yml",
-  "display_title": "build(deps-dev): bump prettier from 2.4.1 to 2.8.2 in /superset-webso…",
-  "run_number": 28493,
-  "event": "push",
+  "display_title": "chore: Localization of several charts and elements",
+  "run_number": 28500,
+  "event": "pull_request",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 10264814224,
-  "check_suite_node_id": "CS_kwDOAlosUs8AAAACY9SikA",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/3875602415",
-  "created_at": "2023-01-09T16:13:35Z",
-  "updated_at": "2023-01-09T16:34:49Z",
+  "check_suite_id": 10267856194,
+  "check_suite_node_id": "CS_kwDOAlosUs8AAAACZAMNQg",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/3876729865",
+  "created_at": "2023-01-09T18:42:25Z",
+  "updated_at": "2023-01-09T18:58:11Z",
   "actor": {
     "login": "rusackas",
     "id": 812905,
@@ -38,7 +38,7 @@
   },
   "run_attempt": 1,
   "referenced_workflows": [],
-  "run_started_at": "2023-01-09T16:13:35Z",
+  "run_started_at": "2023-01-09T18:42:25Z",
   "triggering_actor": {
     "login": "rusackas",
     "id": 812905,
@@ -59,26 +59,26 @@
     "type": "User",
     "site_admin": false
   },
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/3875602415/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/3875602415/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/10264814224",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/3875602415/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/3875602415/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/3875602415/rerun",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/3876729865/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/3876729865/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/10267856194",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/3876729865/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/3876729865/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/3876729865/rerun",
   "previous_attempt_url": null,
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "3ffdad107458db0020193d812270b015a5e4dd98",
-    "tree_id": "4ef583d6e2c963a0ee8c0735b1708963db24743f",
-    "message": "build(deps-dev): bump prettier from 2.4.1 to 2.8.2 in /superset-websocket (#22638)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-    "timestamp": "2023-01-09T16:13:19Z",
+    "id": "fb6f89a07fd9ef165d198df133c0122808e14899",
+    "tree_id": "fbcf6d8bb136c8845810cc9a843c4ea80c4636fe",
+    "message": "small fixes (js)",
+    "timestamp": "2023-01-09T10:03:00Z",
     "author": {
-      "name": "dependabot[bot]",
-      "email": "49699333+dependabot[bot]@users.noreply.github.com"
+      "name": "artemonsh",
+      "email": "shumeykoartem@mail.ru"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "artemonsh",
+      "email": "shumeykoartem@mail.ru"
     }
   }
 }
