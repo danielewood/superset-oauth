@@ -5,7 +5,7 @@
   "head_branch": "master",
   "head_sha": "3158c0c58444a631927c107b54f980d0fe619065",
   "path": ".github/workflows/docker.yml",
-  "display_title": "feat (chart): Added  SriLanka country map",
+  "display_title": "feat(chart): Added  SriLanka country map",
   "run_number": 30356,
   "event": "pull_request",
   "status": "completed",
