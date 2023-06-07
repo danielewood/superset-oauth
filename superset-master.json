@@ -5,7 +5,7 @@
   "head_branch": "master",
   "head_sha": "6bcee0af25ae1b068e810d70fbcb08e2427aebff",
   "path": ".github/workflows/docker.yml",
-  "display_title": "Add Azerbaijan Map to country map",
+  "display_title": "feat(chart): Added Azerbaijan to countries map",
   "run_number": 33004,
   "event": "pull_request",
   "status": "completed",
