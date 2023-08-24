@@ -9,13 +9,13 @@
   "run_number": 35251,
   "event": "push",
   "status": "completed",
-  "conclusion": "failure",
+  "conclusion": "success",
   "workflow_id": 3465823,
   "check_suite_id": 15446048398,
   "check_suite_node_id": "CS_kwDOAlosUs8AAAADmKf-jg",
   "url": "https://api.github.com/repos/apache/superset/actions/runs/5966107211",
   "created_at": "2023-08-24T16:01:50Z",
-  "updated_at": "2023-08-24T16:16:08Z",
+  "updated_at": "2023-08-24T16:35:29Z",
   "actor": {
     "login": "michael-s-molina",
     "id": 70410625,
@@ -36,9 +36,9 @@
     "type": "User",
     "site_admin": false
   },
-  "run_attempt": 1,
+  "run_attempt": 2,
   "referenced_workflows": [],
-  "run_started_at": "2023-08-24T16:01:50Z",
+  "run_started_at": "2023-08-24T16:18:02Z",
   "triggering_actor": {
     "login": "michael-s-molina",
     "id": 70410625,
@@ -65,7 +65,7 @@
   "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/5966107211/artifacts",
   "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/5966107211/cancel",
   "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/5966107211/rerun",
-  "previous_attempt_url": null,
+  "previous_attempt_url": "https://api.github.com/repos/apache/superset/actions/runs/5966107211/attempts/1",
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
     "id": "f584c8462b6d72f902a59e5f72a0f4603de4da1a",
