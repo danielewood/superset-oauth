@@ -1,21 +1,21 @@
 {
-  "id": 6665406959,
+  "id": 6666848360,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs8AAAABjUoJ7w",
+  "node_id": "WFR_kwLOAlosUs8AAAABjWAIaA",
   "head_branch": "master",
-  "head_sha": "1b0873cf97fddb88a922582b475c427f1cdc71dc",
+  "head_sha": "71e439bd991871365411b0adbe034cc3d55ce6a3",
   "path": ".github/workflows/docker.yml",
   "display_title": "fix: Extra column in csv(or non-raw csv) get while sending on email",
-  "run_number": 36670,
+  "run_number": 36673,
   "event": "pull_request",
   "status": "completed",
   "conclusion": "action_required",
   "workflow_id": 3465823,
-  "check_suite_id": 17683692139,
-  "check_suite_node_id": "CS_kwDOAlosUs8AAAAEHge6aw",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/6665406959",
-  "created_at": "2023-10-27T09:27:14Z",
-  "updated_at": "2023-10-27T09:27:14Z",
+  "check_suite_id": 17687554006,
+  "check_suite_node_id": "CS_kwDOAlosUs8AAAAEHkKn1g",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/6666848360",
+  "created_at": "2023-10-27T11:57:43Z",
+  "updated_at": "2023-10-27T11:57:43Z",
   "actor": {
     "login": "rohitpawar2811",
     "id": 72196393,
@@ -38,7 +38,7 @@
   },
   "run_attempt": 1,
   "referenced_workflows": [],
-  "run_started_at": "2023-10-27T09:27:14Z",
+  "run_started_at": "2023-10-27T11:57:43Z",
   "triggering_actor": {
     "login": "rohitpawar2811",
     "id": 72196393,
@@ -59,26 +59,26 @@
     "type": "User",
     "site_admin": false
   },
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/6665406959/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/6665406959/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/17683692139",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/6665406959/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/6665406959/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/6665406959/rerun",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/6666848360/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/6666848360/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/17687554006",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/6666848360/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/6666848360/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/6666848360/rerun",
   "previous_attempt_url": null,
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "1b0873cf97fddb88a922582b475c427f1cdc71dc",
-    "tree_id": "9aed8fdef4229084889910bf4631aea0ca9561a5",
-    "message": "Fix: Test case failure due to a CSV file comparison issue where the CSV file lacked an index column while the configuration specified the default CSV_Index to be true.",
-    "timestamp": "2023-10-27T09:27:03Z",
+    "id": "71e439bd991871365411b0adbe034cc3d55ce6a3",
+    "tree_id": "84dd565359f762ef70c1fd0d446997aa6406f7d0",
+    "message": "Fix: long one liner and fixed the test case failure because in test_email gets the csv without index",
+    "timestamp": "2023-10-27T11:56:29Z",
     "author": {
-      "name": "Rohit pawar",
-      "email": "72196393+rohitpawar2811@users.noreply.github.com"
+      "name": "rohitpawar2811",
+      "email": "rohitpawar28112000@gmail.com"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "rohitpawar2811",
+      "email": "rohitpawar28112000@gmail.com"
     }
   }
 }
