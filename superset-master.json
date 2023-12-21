@@ -5,7 +5,7 @@
   "head_branch": "master",
   "head_sha": "023904659be46e6cfe220cb60c2b314ddeccd80e",
   "path": ".github/workflows/docker.yml",
-  "display_title": "fix(accessibility):Enable tabbing on header row of table chart [WIP]",
+  "display_title": "fix(accessibility):Enable tabbing on sort header of table chart [WIP]",
   "run_number": 37828,
   "event": "pull_request",
   "status": "completed",
