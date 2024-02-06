@@ -1,21 +1,21 @@
 {
-  "id": 7805215844,
+  "id": 7805647588,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs8AAAAB0TokZA",
+  "node_id": "WFR_kwLOAlosUs8AAAAB0UC65A",
   "head_branch": "master",
-  "head_sha": "fef70d7f934ad743b7668cc354effc2bd7c88ea4",
+  "head_sha": "749b76075081cbd8327acf7422aeda0fa81c0bfa",
   "path": ".github/workflows/docker.yml",
-  "display_title": "feat: [WIP] support x-filter on echarts timeseries zoom",
-  "run_number": 39918,
+  "display_title": "fix(chart): STACKED BARS VALUES did not show correctly when data has …",
+  "run_number": 39928,
   "event": "pull_request",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 20505557527,
-  "check_suite_node_id": "CS_kwDOAlosUs8AAAAExjn6Fw",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/7805215844",
-  "created_at": "2024-02-06T19:43:48Z",
-  "updated_at": "2024-02-06T19:49:31Z",
+  "check_suite_id": 20506796294,
+  "check_suite_node_id": "CS_kwDOAlosUs8AAAAExkzhBg",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588",
+  "created_at": "2024-02-06T20:23:43Z",
+  "updated_at": "2024-02-06T20:30:58Z",
   "actor": {
     "login": "rusackas",
     "id": 812905,
@@ -38,7 +38,7 @@
   },
   "run_attempt": 1,
   "referenced_workflows": [],
-  "run_started_at": "2024-02-06T19:43:48Z",
+  "run_started_at": "2024-02-06T20:23:43Z",
   "triggering_actor": {
     "login": "rusackas",
     "id": 812905,
@@ -59,26 +59,26 @@
     "type": "User",
     "site_admin": false
   },
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/7805215844/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/7805215844/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/20505557527",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/7805215844/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/7805215844/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/7805215844/rerun",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/20506796294",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/rerun",
   "previous_attempt_url": null,
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "fef70d7f934ad743b7668cc354effc2bd7c88ea4",
-    "tree_id": "626e3a7bc5b4faba56ee58fafeec4afc0cb614c2",
-    "message": "Merge branch 'apache:master' into master",
-    "timestamp": "2022-12-08T12:37:16Z",
+    "id": "749b76075081cbd8327acf7422aeda0fa81c0bfa",
+    "tree_id": "600866d49b38ddd5fb96d26249e1abb47c49d3e8",
+    "message": "fix(chart): STACKED BARS VALUES did not show correctly when data has negative value",
+    "timestamp": "2022-03-03T05:36:06Z",
     "author": {
-      "name": "fullergalway",
-      "email": "1871541+fullergalway@users.noreply.github.com"
+      "name": "lilyzhou",
+      "email": "lj_zhou@outlook.com"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com"
+      "name": "lilyzhou",
+      "email": "lj_zhou@outlook.com"
     }
   }
 }
