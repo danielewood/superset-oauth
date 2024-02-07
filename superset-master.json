@@ -1,21 +1,21 @@
 {
-  "id": 7805647588,
+  "id": 7807764682,
   "name": "Docker",
-  "node_id": "WFR_kwLOAlosUs8AAAAB0UC65A",
+  "node_id": "WFR_kwLOAlosUs8AAAAB0WEIyg",
   "head_branch": "master",
-  "head_sha": "749b76075081cbd8327acf7422aeda0fa81c0bfa",
+  "head_sha": "d5ef052044853380232de24f423ed45096f775a1",
   "path": ".github/workflows/docker.yml",
-  "display_title": "fix(chart): STACKED BARS VALUES did not show correctly when data has …",
-  "run_number": 39928,
-  "event": "pull_request",
+  "display_title": "build(deps): bump react-js-cron from 1.2.0 to 2.1.2 in /superset-fron…",
+  "run_number": 39934,
+  "event": "push",
   "status": "completed",
   "conclusion": "success",
   "workflow_id": 3465823,
-  "check_suite_id": 20506796294,
-  "check_suite_node_id": "CS_kwDOAlosUs8AAAAExkzhBg",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588",
-  "created_at": "2024-02-06T20:23:43Z",
-  "updated_at": "2024-02-06T20:30:58Z",
+  "check_suite_id": 20512752423,
+  "check_suite_node_id": "CS_kwDOAlosUs8AAAAExqfDJw",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/7807764682",
+  "created_at": "2024-02-07T00:01:49Z",
+  "updated_at": "2024-02-07T00:20:23Z",
   "actor": {
     "login": "rusackas",
     "id": 812905,
@@ -38,7 +38,7 @@
   },
   "run_attempt": 1,
   "referenced_workflows": [],
-  "run_started_at": "2024-02-06T20:23:43Z",
+  "run_started_at": "2024-02-07T00:01:49Z",
   "triggering_actor": {
     "login": "rusackas",
     "id": 812905,
@@ -59,26 +59,26 @@
     "type": "User",
     "site_admin": false
   },
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/20506796294",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/7805647588/rerun",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/7807764682/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/7807764682/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/20512752423",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/7807764682/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/7807764682/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/7807764682/rerun",
   "previous_attempt_url": null,
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "749b76075081cbd8327acf7422aeda0fa81c0bfa",
-    "tree_id": "600866d49b38ddd5fb96d26249e1abb47c49d3e8",
-    "message": "fix(chart): STACKED BARS VALUES did not show correctly when data has negative value",
-    "timestamp": "2022-03-03T05:36:06Z",
+    "id": "d5ef052044853380232de24f423ed45096f775a1",
+    "tree_id": "e1eaf6bf934459a8eb9c140efc337164736d50f5",
+    "message": "build(deps): bump react-js-cron from 1.2.0 to 2.1.2 in /superset-frontend (#26981)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+    "timestamp": "2024-02-07T00:01:45Z",
     "author": {
-      "name": "lilyzhou",
-      "email": "lj_zhou@outlook.com"
+      "name": "dependabot[bot]",
+      "email": "49699333+dependabot[bot]@users.noreply.github.com"
     },
     "committer": {
-      "name": "lilyzhou",
-      "email": "lj_zhou@outlook.com"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
