@@ -5,7 +5,7 @@
   "head_branch": "master",
   "head_sha": "93b2047b3901930b3835083866d4384e9ea040ae",
   "path": ".github/workflows/docker.yml",
-  "display_title": "Rename Ukrainian City to Ukrainian format and deccomunization",
+  "display_title": "fix(maps): Rename Ukrainian City to Ukrainian format and deccomunization",
   "run_number": 40876,
   "event": "pull_request",
   "status": "completed",
