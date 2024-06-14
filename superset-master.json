@@ -1,21 +1,21 @@
 {
-  "id": 9516173291,
+  "id": 9516947624,
   "name": "Build & publish docker images",
-  "node_id": "WFR_kwLOAlosUs8AAAACNzVH6w",
+  "node_id": "WFR_kwLOAlosUs8AAAACN0EYqA",
   "head_branch": "master",
-  "head_sha": "4b143c499babf3fbfd17b384691976370d474310",
+  "head_sha": "ed79517df68fe4ba5f72bc81b3529ef390807472",
   "path": ".github/workflows/docker.yml",
   "display_title": "add sso support",
-  "run_number": 44663,
+  "run_number": 44665,
   "event": "pull_request",
   "status": "completed",
   "conclusion": "action_required",
   "workflow_id": 3465823,
-  "check_suite_id": 24909910190,
-  "check_suite_node_id": "CS_kwDOAlosUs8AAAAFzL8Qrg",
-  "url": "https://api.github.com/repos/apache/superset/actions/runs/9516173291",
-  "created_at": "2024-06-14T12:32:47Z",
-  "updated_at": "2024-06-14T12:32:47Z",
+  "check_suite_id": 24912106064,
+  "check_suite_node_id": "CS_kwDOAlosUs8AAAAFzOCSUA",
+  "url": "https://api.github.com/repos/apache/superset/actions/runs/9516947624",
+  "created_at": "2024-06-14T13:27:42Z",
+  "updated_at": "2024-06-14T13:27:42Z",
   "actor": {
     "login": "datalesniak",
     "id": 167102557,
@@ -38,7 +38,7 @@
   },
   "run_attempt": 1,
   "referenced_workflows": [],
-  "run_started_at": "2024-06-14T12:32:47Z",
+  "run_started_at": "2024-06-14T13:27:42Z",
   "triggering_actor": {
     "login": "datalesniak",
     "id": 167102557,
@@ -59,26 +59,26 @@
     "type": "User",
     "site_admin": false
   },
-  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/9516173291/jobs",
-  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/9516173291/logs",
-  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/24909910190",
-  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/9516173291/artifacts",
-  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/9516173291/cancel",
-  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/9516173291/rerun",
+  "jobs_url": "https://api.github.com/repos/apache/superset/actions/runs/9516947624/jobs",
+  "logs_url": "https://api.github.com/repos/apache/superset/actions/runs/9516947624/logs",
+  "check_suite_url": "https://api.github.com/repos/apache/superset/check-suites/24912106064",
+  "artifacts_url": "https://api.github.com/repos/apache/superset/actions/runs/9516947624/artifacts",
+  "cancel_url": "https://api.github.com/repos/apache/superset/actions/runs/9516947624/cancel",
+  "rerun_url": "https://api.github.com/repos/apache/superset/actions/runs/9516947624/rerun",
   "previous_attempt_url": null,
   "workflow_url": "https://api.github.com/repos/apache/superset/actions/workflows/3465823",
   "head_commit": {
-    "id": "4b143c499babf3fbfd17b384691976370d474310",
-    "tree_id": "9f1ca00576331f4dfdb328a8df6bd1ba9845426f",
-    "message": "Fix authlib dep && have Working auth with google",
-    "timestamp": "2024-06-06T15:40:10Z",
+    "id": "ed79517df68fe4ba5f72bc81b3529ef390807472",
+    "tree_id": "8747d74bd97e5d602db9798a83263d28bff966d8",
+    "message": "Update .gitignore\n\nadmit config file custom_sso_security_manager.py",
+    "timestamp": "2024-06-14T13:27:37Z",
     "author": {
-      "name": "Matias",
-      "email": "superset@superset.us-central1-a.c.app-producto-410316.internal"
+      "name": "datalesniak",
+      "email": "167102557+datalesniak@users.noreply.github.com"
     },
     "committer": {
-      "name": "Matias",
-      "email": "superset@superset.us-central1-a.c.app-producto-410316.internal"
+      "name": "GitHub",
+      "email": "noreply@github.com"
     }
   }
 }
